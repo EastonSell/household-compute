@@ -1,0 +1,202 @@
+{
+  "checked_at_utc": "2026-10-25T06:39:41.321845+00:00",
+  "upstream_commit": "9e3215eebf92a3a4ae3f74275494cc754a45c06b",
+  "scope": "39-file source subset fetched through GitHub connector; not a full repository clone",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "9ec52d7ebb8a716e7e900f1345ff441187e5642f",
+      "sha256": "5d1c17b735d79eaa798e78438ea3aa90d7bdd721ddd5f0d22a1c15085869be4c"
+    },
+    {
+      "path": "HOUSEHOLD_ATLAS.md",
+      "git_blob_sha1": "bfa2e4b28ec773373eb1384e8e3cb0fe7f9a0821",
+      "sha256": "4d978ec703bc5abb428f7aa6be5f6c0b7b1208e6f5ee4b06c2335cf54b35754c"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "ff2f98e41cd901a1794722ead0151700a93f27ea",
+      "sha256": "678e9c615789dd91c998713a40189f34c0511bd8e2088440048f9e91c5ff76d8"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "38c7347361dc96a44d7dd0c212c5e39fd5f0dcfb",
+      "sha256": "556a6ec7cca6652657f50f1e0c9e382d1153c4801cecbb427fb7d55d20897f6a"
+    },
+    {
+      "path": "calculations/feasibility.py",
+      "git_blob_sha1": "b66928b801b791a5e267fe9195df3fdaa84dcf8c",
+      "sha256": "5d70c2241a77ed865110ed99f865b142487114039e3974860818c10fa9cb47f0"
+    },
+    {
+      "path": "data/household/device_evidence.json",
+      "git_blob_sha1": "9e6516a3ea3b2a578f788ff34156a4b5aec671f2",
+      "sha256": "7cc5683060e2e9dc7e5f121d56b4799f2c0f29a800b70eda449808b942872f09"
+    },
+    {
+      "path": "data/household/household_baskets.json",
+      "git_blob_sha1": "6bc4d875528e161cbd1ee750a19bcb28a41a4b02",
+      "sha256": "9e02f1f9a3409447889843fb440eb2c595b453410a2c06815fca92cf8570f725"
+    },
+    {
+      "path": "data/household/scaling_assumptions.json",
+      "git_blob_sha1": "cdd80468d0546cc45b66c326bdb1d87bc19acca8",
+      "sha256": "5eea34704e194cdac5891eada8e88198838c983fc18696c48be19fd159a3da11"
+    },
+    {
+      "path": "examples/illustrative.json",
+      "git_blob_sha1": "94dbbda50eb42e084db57c61a88d5ebd608d58ed",
+      "sha256": "99bc5a82f0b4b3ba70072a285ae1fb427996c5f95b69c5aac3b729cb4e546a34"
+    },
+    {
+      "path": "mesh/__init__.py",
+      "git_blob_sha1": "6dc11c8a8d435bc06bab75f846b5bd1d0fa6ec21",
+      "sha256": "0f36dd550c00a07c575566cd8e7f7a9b64c23b1618ad5081fba799a72f5ba9da"
+    },
+    {
+      "path": "mesh/__main__.py",
+      "git_blob_sha1": "3543a9ed46da0716463e80275005385a8780bc42",
+      "sha256": "5b8b07d95ac812d2ae8af85a433bf4c6c3e4e142f28a80647fcf611b296dd34d"
+    },
+    {
+      "path": "mesh/benchmark.py",
+      "git_blob_sha1": "f73c4fb246edca4a9b4926539f588e0f98770738",
+      "sha256": "6164b4585f80aa72bb4a13ae9fb4517c27ec0161c60158bbf67d01965629c744"
+    },
+    {
+      "path": "mesh/household.py",
+      "git_blob_sha1": "7cb801b58ff0056c5d1a8f346ce85e1077ca963b",
+      "sha256": "4359227a03323b6efb4d815bf0a735575b7977b9f1656a6ea68e3a598b5a5d1b"
+    },
+    {
+      "path": "mesh/household_charts.py",
+      "git_blob_sha1": "d7dd863696619a2010e053e364b5f00c2f93fca5",
+      "sha256": "ce261d4b476e39e594f710f66e2e9a994bbabb048764a2b00a6602fd0597f03a"
+    },
+    {
+      "path": "mesh/household_report.py",
+      "git_blob_sha1": "f1d33b156c1a118916a2b29bbee438681ea803aa",
+      "sha256": "6cf0c88f39c2d2e8d8ba0a74f92b1afd6d1d11afb6e086a44fc5c85ad203d075"
+    },
+    {
+      "path": "mesh/model.py",
+      "git_blob_sha1": "f921dad15fb5fa03a2d017f19a2ab4057e28894f",
+      "sha256": "6261d97c45ddde5a7b4b629ae4a38bc8754c07c2cf9f754502f0c924a4462f47"
+    },
+    {
+      "path": "mesh/pretrained_experiment.py",
+      "git_blob_sha1": "5244cee0bcdb5682d869998fa1938c22bd4d12de",
+      "sha256": "a8dff6f1fe3d382565ae089feb952481728b86cc32a2b2e8e7ccfe5e2d5a553f"
+    },
+    {
+      "path": "mesh/pretrained_model.py",
+      "git_blob_sha1": "74aaf099e365d93c8d16f407ac37f2bfddd3ceeb",
+      "sha256": "1600176d030509d9aa08a2b41335ee21ebcb12cb9a2ac68c1b301f75459fba86"
+    },
+    {
+      "path": "mesh/pretrained_protocol.py",
+      "git_blob_sha1": "fe232b101b79aec60f2034250c8fd94ccf06ed2e",
+      "sha256": "49de760965e31a5d400d181aff7def8468f1fa5ea73c7d3f010d99bec41ec6ee"
+    },
+    {
+      "path": "mesh/pretrained_session.py",
+      "git_blob_sha1": "27406339ff2cbf7f975e05e59b4b214ef12cf22e",
+      "sha256": "242ab20a765bb444f26a072f66549c0f1fafaa346235a3f6dcd4ff63e563f000"
+    },
+    {
+      "path": "mesh/process_cli.py",
+      "git_blob_sha1": "5b299e5170b88196668a71f941f74c0815e019f3",
+      "sha256": "d7768bc124d9bb83b53b07501397eee6510ae910d501aea8941b3f0730ff5c56"
+    },
+    {
+      "path": "mesh/process_mesh.py",
+      "git_blob_sha1": "23108ed1a6c0a462268b61ed053008ec2cae4551",
+      "sha256": "aec069efda30897bbccbcc0ddc55cbf048dc948fda36c4b42e264fb42faa9a64"
+    },
+    {
+      "path": "mesh/repeated.py",
+      "git_blob_sha1": "aa2e1828b0e6fed95d021f31b727d6a3198784b9",
+      "sha256": "e6e7e39d1be568f9f613e6c827c328b2c1cadfc963f2b804a5b720dbb2f8d048"
+    },
+    {
+      "path": "mesh/session.py",
+      "git_blob_sha1": "97197a926cf524e0d97a7f86e9da054d6db29079",
+      "sha256": "ce3c2c658b61fb8fa1da2664b758a33d9c89933cc268f57e753d4df3c4e38a9c"
+    },
+    {
+      "path": "studies/README.md",
+      "git_blob_sha1": "93a10900a8b9a180fae9eb7b3bfc3f058b42976b",
+      "sha256": "8ade9c17b439abc34826b1775fdebc0f805973e05b91420b850e59f75e6609d2"
+    },
+    {
+      "path": "studies/tcp-framing-codec/README.md",
+      "git_blob_sha1": "de50d37ce4067c117947922aae2c4160d28ca639",
+      "sha256": "a3b1c2435e61faaf1f69b7e7e7f6bcf4c85e5e850fbfe562789611ebffe20a7e"
+    },
+    {
+      "path": "studies/tcp-framing-codec/SOURCE_SHA256.txt",
+      "git_blob_sha1": "1c74c6d1227c2cd6a38e0e4f86ee887a8dedfc70",
+      "sha256": "e7245bcee6b656702e5b4dff8db97814d29cd330a6f3e78f5e7e6529e1c2ab42"
+    },
+    {
+      "path": "studies/tcp-framing-codec/SUPERVISION_DESIGN.md",
+      "git_blob_sha1": "dd74b0c177fb0b847b3a0779c35a8e829c180360",
+      "sha256": "7939dd61dc845cbd167fc648c52bff634b4c1beae40446eba85ee869f8ba5f10"
+    },
+    {
+      "path": "studies/tcp-framing-codec/TEST_RESULTS.txt",
+      "git_blob_sha1": "137ccc768ac5317bcaff01eeb9ceff4785120ee3",
+      "sha256": "795c9f8875d32c5fcf62b222fe1c97f505761d28e501045e71ee5576dbf11201"
+    },
+    {
+      "path": "studies/tcp-framing-codec/mesh_codec.py",
+      "git_blob_sha1": "04220c76669eba2a7b8cb16b0d5b47a01afa26b2",
+      "sha256": "3fcb2b2dffd7d95e56d4887ce02a63482ff612b4a7c0313e9fbcb715a419b5aa"
+    },
+    {
+      "path": "studies/tcp-framing-codec/test_mesh_codec.py",
+      "git_blob_sha1": "ce99610e7650fc2c9d1aaca266c16c70895a7c61",
+      "sha256": "799b6e048fdc9ffb31a754d48ef2623914003785e456f9ff0eb91e224139dc6f"
+    },
+    {
+      "path": "tests/test_feasibility.py",
+      "git_blob_sha1": "f58c9bb141eebf4aac36b5c5c91433ace43448e3",
+      "sha256": "89884664f0bdc2ac61b0393b56ee1aedf314c9a37e878c7cbc272e94c0350efc"
+    },
+    {
+      "path": "tests/test_household.py",
+      "git_blob_sha1": "a9690a2e093cd6c0fae85e16d6a2786fc740f491",
+      "sha256": "64c63eea9fae186cd3810f39fea28ef73653d6a9d749cd14ff3d68b1ccc44ea2"
+    },
+    {
+      "path": "tests/test_mesh.py",
+      "git_blob_sha1": "08fb8c9850489acef93ac497e7466cfa1ec32a12",
+      "sha256": "badd2f895a0928d6301d37dd2effdd3dba241bf911f1b5c29e4d6b645d372345"
+    },
+    {
+      "path": "tests/test_pretrained_optional.py",
+      "git_blob_sha1": "31717ab6fbbec005397fa5897b6d9ce9c969d34e",
+      "sha256": "9bab33efe205b72e7149c9c6eb02a84621cbeda65b30c5e66b673a2e19d4cae1"
+    },
+    {
+      "path": "tests/test_pretrained_protocol.py",
+      "git_blob_sha1": "26671115471def620dd2fc420d7152826b307735",
+      "sha256": "f8740d96bf37cd46a0733ad59bfaa7b32568fce3e79169c796a7fb7be3012c8c"
+    },
+    {
+      "path": "tests/test_pretrained_session_protocol.py",
+      "git_blob_sha1": "923013338fc1f0e238ec3c8aeb29e7606a79c628",
+      "sha256": "4bef6ce8f90c2f9f53cb24e01f4623508e9f11e48643e9581d18a1bde164e6f5"
+    },
+    {
+      "path": "tests/test_process_mesh.py",
+      "git_blob_sha1": "a04fc28f594133f316c75391e4e6733b5f7472f1",
+      "sha256": "2fe8afc61b70eeb9168703260d630102faad6912fa242cbd4bd3c80b14e2e204"
+    },
+    {
+      "path": "tests/test_repeated.py",
+      "git_blob_sha1": "fa9f7730ece5677a06d7df25bcc0c968f38063c7",
+      "sha256": "73cb621ce26bf5702cbd9fd8bc9ff38c50f3ce96a74a234cd871cdcb55e5ad34"
+    }
+  ]
+}
