@@ -1,0 +1,37 @@
+{
+  "status": "pre_data_correctness_verified_awaiting_independent_review",
+  "checked_at_utc": "2026-10-25T07:49:54.076386+00:00",
+  "candidate_observations_collected": false,
+  "published_baseline_commit": "ce945115f7fcf8f4da559cc5026d8a0157b5fa7d",
+  "preserved_tracked_baseline_files": 62,
+  "freeze_sha256": "5053f3212d4469f69b3d59110153646d2eada24d4153f2b312f6ab9d8c595e89",
+  "tests": {
+    "new_study": {
+      "discovered": 49,
+      "passed": 49,
+      "skipped": 0
+    },
+    "new_study_python_optimized": {
+      "discovered": 49,
+      "passed": 49,
+      "skipped": 0
+    },
+    "root": {
+      "discovered": 65,
+      "passed": 62,
+      "skipped": 3
+    },
+    "original_codec": {
+      "discovered": 34,
+      "passed": 34,
+      "skipped": 0
+    },
+    "prior_serialization_study": {
+      "discovered": 23,
+      "passed": 23,
+      "skipped": 0
+    }
+  },
+  "structural_review": "AST comparison confirms candidate differs only by native-format guard, finite_scan helper, sys import and finite predicate call; full source diff retained.",
+  "scope": "Local source-subset checkout; no empirical candidate timing/allocation, no publication, no full remote repository verification."
+}

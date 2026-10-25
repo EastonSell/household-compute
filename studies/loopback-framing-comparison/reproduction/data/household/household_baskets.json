@@ -1,0 +1,56 @@
+{
+  "status": "Illustrative device-informed baskets, not surveyed US averages, percentile households, or measured feasible allocations. Vendor RAM labels preserved in GB; selected usable budgets in GiB are independent engineering assumptions, not a unit conversion of vendor labels.",
+  "low": {
+    "available_gib": 4,
+    "devices": [
+      {
+        "example": "MacBook Air M1 (2020), 8GB configuration",
+        "count": 1,
+        "vendor_installed_ram": "8GB unified memory",
+        "assumed_usable_gib_each": 4,
+        "source": "https://support.apple.com/en-us/111883"
+      }
+    ]
+  },
+  "middle": {
+    "available_gib": 12,
+    "devices": [
+      {
+        "example": "MacBook Air M4 (2025), 16GB configuration",
+        "count": 1,
+        "vendor_installed_ram": "16GB unified memory",
+        "assumed_usable_gib_each": 8,
+        "source": "https://support.apple.com/en-us/122209"
+      },
+      {
+        "example": "Google Pixel 9 (2024)",
+        "count": 2,
+        "vendor_installed_ram": "12GB RAM",
+        "assumed_usable_gib_each": 2,
+        "source": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+      }
+    ]
+  },
+  "high": {
+    "available_gib": 24,
+    "devices": [
+      {
+        "example": "MacBook Air M4 (2025), 32GB configuration",
+        "count": 1,
+        "vendor_installed_ram": "32GB unified memory",
+        "assumed_usable_gib_each": 16,
+        "source": "https://support.apple.com/en-us/122209"
+      },
+      {
+        "example": "Google Pixel 9 (2024)",
+        "count": 2,
+        "vendor_installed_ram": "12GB RAM",
+        "assumed_usable_gib_each": 4,
+        "source": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+      }
+    ]
+  },
+  "other_consented_devices": "Fully consenting TVs, routers, consoles, smart fridges, wearables and microcontrollers may still perform useful work; no LLM weight-memory allocation is assumed without runtime access and measurement. Zero budget means uncredited capacity, not zero computing capability.",
+  "memory_dominance": "In these deliberately chosen budgets, the laptop contributes100% of low capacity and two-thirds of middle/high capacity; phones the remainder. This is a property of scenarios, not a population finding.",
+  "validation": "Available appRAM, accelerator accessibility, local shards, sharedRAM non-double-counting, thermal dutycycle and interdevice communication require actual measurement. Vendor specification URLs are listed with each device."
+}

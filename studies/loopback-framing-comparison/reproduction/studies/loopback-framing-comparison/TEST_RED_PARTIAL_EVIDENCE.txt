@@ -1,0 +1,59 @@
+test_admission_bound_to_exact_stage_and_freeze (test_benchmark.BenchmarkTests.test_admission_bound_to_exact_stage_and_freeze) ... ok
+test_canary_has_no_measured_rows (test_benchmark.BenchmarkTests.test_canary_has_no_measured_rows) ... ok
+test_driver_canary_closes_and_reaps_with_socket_free_doubles (test_benchmark.BenchmarkTests.test_driver_canary_closes_and_reaps_with_socket_free_doubles) ... ok
+test_driver_journal_failure_still_reaps_owned_child (test_benchmark.BenchmarkTests.test_driver_journal_failure_still_reaps_owned_child) ... FAIL
+test_driver_socket_close_failure_still_reaps_owned_child (test_benchmark.BenchmarkTests.test_driver_socket_close_failure_still_reaps_owned_child) ... ok
+test_driver_terminal_journal_failure_still_writes_result (test_benchmark.BenchmarkTests.test_driver_terminal_journal_failure_still_writes_result) ... ERROR
+test_exclusive_output_never_overwrites (test_benchmark.BenchmarkTests.test_exclusive_output_never_overwrites) ... ok
+test_fixtures_retain_prior_exact_sizes_and_bytes (test_benchmark.BenchmarkTests.test_fixtures_retain_prior_exact_sizes_and_bytes) ... ok
+test_full_fixed_denominator_and_balanced_pairing (test_benchmark.BenchmarkTests.test_full_fixed_denominator_and_balanced_pairing) ... ok
+test_journal_reserves_terminal_and_refuses_overwrite (test_benchmark.BenchmarkTests.test_journal_reserves_terminal_and_refuses_overwrite) ... ok
+test_missing_admission_fails_before_sockets (test_benchmark.BenchmarkTests.test_missing_admission_fails_before_sockets) ... ok
+test_output_size_rejected_without_creating_file (test_benchmark.BenchmarkTests.test_output_size_rejected_without_creating_file) ... ok
+test_real_codec_receiver_handles_fragmented_synthetic_session (test_benchmark.BenchmarkTests.test_real_codec_receiver_handles_fragmented_synthetic_session) ... ok
+test_receiver_retains_preceding_commands_after_later_failure (test_benchmark.BenchmarkTests.test_receiver_retains_preceding_commands_after_later_failure) ... ERROR
+test_strict_json_rejects_duplicates_and_nonfinite (test_benchmark.BenchmarkTests.test_strict_json_rejects_duplicates_and_nonfinite) ... ok
+test_timer_rejects_nonpositive_and_boolean_intervals (test_benchmark.BenchmarkTests.test_timer_rejects_nonpositive_and_boolean_intervals) ... ok
+test_timer_wraps_all_operations_and_not_checks (test_benchmark.BenchmarkTests.test_timer_wraps_all_operations_and_not_checks) ... ok
+test_wrong_ack_rejected (test_benchmark.BenchmarkTests.test_wrong_ack_rejected) ... ok
+
+======================================================================
+ERROR: test_driver_terminal_journal_failure_still_writes_result (test_benchmark.BenchmarkTests.test_driver_terminal_journal_failure_still_writes_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 228, in test_driver_terminal_journal_failure_still_writes_result
+    self._drive_with_doubles('terminal')
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 210, in _drive_with_doubles
+    status=b.driver(a,'a'*64,{'stage':'canary','admission_sha256':'b'*64,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reproduction/studies/loopback-framing-comparison/benchmark.py", line 396, in driver
+    journal.add({'event':'terminal','status':result['status'],'rows':len(result['rows']),
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 196, in journal_add
+    if fault=='terminal' and event['event']=='terminal':raise OSError('scripted terminal failure')
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: scripted terminal failure
+
+======================================================================
+ERROR: test_receiver_retains_preceding_commands_after_later_failure (test_benchmark.BenchmarkTests.test_receiver_retains_preceding_commands_after_later_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 146, in test_receiver_retains_preceding_commands_after_later_failure
+    with self.assertRaises(ValueError):b.receive_session(MemoryIO(),'canary',codecs,cases,85,records,progress)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: receive_session() takes 6 positional arguments but 7 were given
+
+======================================================================
+FAIL: test_driver_journal_failure_still_reaps_owned_child (test_benchmark.BenchmarkTests.test_driver_journal_failure_still_reaps_owned_child)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 225, in test_driver_journal_failure_still_reaps_owned_child
+    self._drive_with_doubles('journal')
+  File "reproduction/studies/loopback-framing-comparison/test_benchmark.py", line 219, in _drive_with_doubles
+    else:self.assertEqual(result['totals'],{'sent':2408,'received':32})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != {'sent': 2408, 'received': 32}
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.729s
+
+FAILED (failures=1, errors=2)

@@ -1,0 +1,18 @@
+test_all_original_contract_tests_run_unchanged_on_candidate (test_candidate_codec.CodecParityTests.test_all_original_contract_tests_run_unchanged_on_candidate) ... ok
+test_body_type_size_token_and_error_rejection_match_baseline (test_candidate_codec.CodecParityTests.test_body_type_size_token_and_error_rejection_match_baseline) ... ok
+test_bytewise_activation_delivery_matches_baseline (test_candidate_codec.CodecParityTests.test_bytewise_activation_delivery_matches_baseline) ... ok
+test_every_activation_split_and_coalesced_surplus_matches_baseline (test_candidate_codec.CodecParityTests.test_every_activation_split_and_coalesced_surplus_matches_baseline) ... ok
+test_exact_pack_decode_and_original_payload_object_preserved (test_candidate_codec.CodecParityTests.test_exact_pack_decode_and_original_payload_object_preserved) ... ok
+test_header_rejection_and_terminal_state_match_baseline (test_candidate_codec.CodecParityTests.test_header_rejection_and_terminal_state_match_baseline) ... ok
+test_nonfinite_at_first_middle_last_activation_and_audit_positions (test_candidate_codec.CodecParityTests.test_nonfinite_at_first_middle_last_activation_and_audit_positions) ... ok
+test_accepts_little_endian_finite_boundaries_unchanged (test_candidate_codec.FiniteScanTests.test_accepts_little_endian_finite_boundaries_unchanged) ... ok
+test_classifies_every_upper_halfword_with_boundary_lower_halfwords (test_candidate_codec.FiniteScanTests.test_classifies_every_upper_halfword_with_boundary_lower_halfwords) ... ok
+test_fallback_classifies_every_upper_halfword (test_candidate_codec.FiniteScanTests.test_fallback_classifies_every_upper_halfword) ... ok
+test_portable_fallback_uses_little_endian_wire_format (test_candidate_codec.FiniteScanTests.test_portable_fallback_uses_little_endian_wire_format) ... ok
+test_rejects_signed_infinity_signaling_and_quiet_nan (test_candidate_codec.FiniteScanTests.test_rejects_signed_infinity_signaling_and_quiet_nan) ... ok
+test_seeded_full_width_patterns_match_independent_exponent_oracle (test_candidate_codec.FiniteScanTests.test_seeded_full_width_patterns_match_independent_exponent_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.759s
+
+OK

@@ -1,0 +1,39 @@
+test_all_byte_fragmentation (test_mesh_codec.CodecTests.test_all_byte_fragmentation) ... ok
+test_bad_header_fields_before_body (test_mesh_codec.CodecTests.test_bad_header_fields_before_body) ... ok
+test_closed_error_enum (test_mesh_codec.CodecTests.test_closed_error_enum) ... ok
+test_coalesced_frames_not_queued (test_mesh_codec.CodecTests.test_coalesced_frames_not_queued) ... ok
+test_each_split_position (test_mesh_codec.CodecTests.test_each_split_position) ... ok
+test_fixed_caps (test_mesh_codec.CodecTests.test_fixed_caps) ... ok
+test_header_layout (test_mesh_codec.CodecTests.test_header_layout) ... ok
+test_invalid_tokens (test_mesh_codec.CodecTests.test_invalid_tokens) ... ok
+test_local_field_types_and_bounds (test_mesh_codec.CodecTests.test_local_field_types_and_bounds) ... ok
+test_mode_specific_reply (test_mesh_codec.CodecTests.test_mode_specific_reply) ... ok
+test_nonfinite_tensors (test_mesh_codec.CodecTests.test_nonfinite_tensors) ... ok
+test_session_header_gate_precedes_body (test_mesh_codec.CodecTests.test_session_header_gate_precedes_body) ... ok
+test_short_header_and_body_eof (test_mesh_codec.CodecTests.test_short_header_and_body_eof) ... ok
+test_duplicates_skips_stale (test_mesh_codec.StateTests.test_duplicates_skips_stale) ... ok
+test_error_and_external_failure_terminal (test_mesh_codec.StateTests.test_error_and_external_failure_terminal) ... ok
+test_no_commit_before_final_reply (test_mesh_codec.StateTests.test_no_commit_before_final_reply) ... ok
+test_overflow_never_wraps (test_mesh_codec.StateTests.test_overflow_never_wraps) ... ok
+test_relay_bytes_must_match (test_mesh_codec.StateTests.test_relay_bytes_must_match) ... ok
+test_reply_echo_and_kind (test_mesh_codec.StateTests.test_reply_echo_and_kind) ... ok
+test_reset_both_ack_required_and_replay (test_mesh_codec.StateTests.test_reset_both_ack_required_and_replay) ... ok
+test_reset_during_operation (test_mesh_codec.StateTests.test_reset_during_operation) ... ok
+test_second_reset_ack_failure (test_mesh_codec.StateTests.test_second_reset_ack_failure) ... ok
+test_stop_terminal (test_mesh_codec.StateTests.test_stop_terminal) ... ok
+test_success_token_and_audit_chain (test_mesh_codec.StateTests.test_success_token_and_audit_chain) ... ok
+test_wrong_cache_epoch_identity_direction (test_mesh_codec.StateTests.test_wrong_cache_epoch_identity_direction) ... ok
+test_wrong_greedy_token (test_mesh_codec.StateTests.test_wrong_greedy_token) ... ok
+test_accounting_rejects_invalid_and_unsettled (test_mesh_codec.TransportTests.test_accounting_rejects_invalid_and_unsettled) ... ok
+test_byte_forecasts (test_mesh_codec.TransportTests.test_byte_forecasts) ... ok
+test_io_exception_poison (test_mesh_codec.TransportTests.test_io_exception_poison) ... ok
+test_partial_write_deadline_retains_actual (test_mesh_codec.TransportTests.test_partial_write_deadline_retains_actual) ... ok
+test_partial_write_read_counts (test_mesh_codec.TransportTests.test_partial_write_read_counts) ... ok
+test_slow_drip_fixed_deadline (test_mesh_codec.TransportTests.test_slow_drip_fixed_deadline) ... ok
+test_validation_crossing_deadline_is_terminal (test_mesh_codec.TransportTests.test_validation_crossing_deadline_is_terminal) ... ok
+test_zero_write_and_eof_fail (test_mesh_codec.TransportTests.test_zero_write_and_eof_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.387s
+
+OK

@@ -1,0 +1,10 @@
+{"event":"start","freeze_sha256":"c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65","instance_id":"45ad3460-eb19-4001-b2b7-989cdef858b5","mode":"canary"}
+{"command":{"block":-1,"case":"activation_decode","index":0,"iterations":1,"phase":"canary","received":16,"sent":2368,"variant":"baseline"},"event":"untimed"}
+{"command":{"block":-1,"case":"activation_decode","index":1,"iterations":1,"phase":"canary","received":16,"sent":2368,"variant":"candidate"},"event":"untimed"}
+{"command":{"block":-1,"case":"activation_prefill_16","index":2,"iterations":1,"phase":"canary","received":16,"sent":36928,"variant":"baseline"},"event":"untimed"}
+{"command":{"block":-1,"case":"activation_prefill_16","index":3,"iterations":1,"phase":"canary","received":16,"sent":36928,"variant":"candidate"},"event":"untimed"}
+{"command":{"block":-1,"case":"activation_prefill_64","index":4,"iterations":1,"phase":"canary","received":16,"sent":147520,"variant":"baseline"},"event":"untimed"}
+{"command":{"block":-1,"case":"activation_prefill_64","index":5,"iterations":1,"phase":"canary","received":16,"sent":147520,"variant":"candidate"},"event":"untimed"}
+{"command":{"block":-1,"case":"audit_reply","index":6,"iterations":1,"phase":"canary","received":16,"sent":196676,"variant":"baseline"},"event":"untimed"}
+{"command":{"block":-1,"case":"audit_reply","index":7,"iterations":1,"phase":"canary","received":16,"sent":196676,"variant":"candidate"},"event":"untimed"}
+{"cleanup":{"killed":false,"pid":8,"reaped":true,"returncode":0,"terminated":false},"cleanup_error_type":null,"commands":8,"error_type":null,"event":"terminal","rows":0,"status":"complete"}

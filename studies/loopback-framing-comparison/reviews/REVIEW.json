@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "decision": "PASS",
+  "stage": "independent-predata-source-review",
+  "reviewed_at_utc": "2026-10-25T08:55:44.108559+00:00",
+  "candidate_directory": "reproduction/studies/loopback-framing-comparison",
+  "freeze_file": "PRE_DATA_SHA256.json",
+  "freeze_sha256": "c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65",
+  "protocol_sha256": "68690f315f30356f154f1f6a548da494de0494e51ebad0bd496e0a1bcb0dbf03",
+  "sources_verified": 12,
+  "unchanged_historical_tracked_files_verified": 92,
+  "tests": {
+    "normal": {
+      "tests": 46,
+      "failures": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "log_sha256": "42877dd700d9142b1c1996662208f87bdf909ed3fc086d203df437ca79954661"
+    },
+    "optimized": {
+      "tests": 46,
+      "failures": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "log_sha256": "f66d9f02a0ed73b01237371d1559b8613008597ad6856bf8e95c1897a53ee544"
+    }
+  },
+  "independent_test_harness_sha256": "b6b9ea4cc54d6341522ac3ce414bf50044cb9ecb95296dad83d83d0304d4cf11",
+  "candidate_was_edited_by_reviewer": false,
+  "actual_sockets_opened": false,
+  "empirical_measurements_collected": false,
+  "real_receiver_processes_started": false,
+  "real_process_signals_sent": false,
+  "root_suite_run": false,
+  "execution_guard": "Python audit hook rejected real socket creation/bind/connect/DNS, child spawning and process signals.",
+  "verified_scope": [
+    "Exact prior four payloads and both unchanged codec hashes; independent raw wire reconstruction.",
+    "One loopback listener/connection, one owned receiver, one driver; literal 127.0.0.1 and ephemeral bind only.",
+    "Nonblocking read/write/connect/accept, absolute monotonic deadlines, bounded select, no progress reset, exact ACK and no ACK for wrong frame.",
+    "Actual positive byte accounting survives post-syscall deadline expiry; completed commands, active stage and partial totals survive ordinary failure.",
+    "Only direct owned Popen cleanup, retained attempted escalation/reap evidence, socket/journal failures do not bypass cleanup.",
+    "Pre-data source/inventory freeze and before/after provenance checks; reviewer-approved separate canary and collection receipts.",
+    "Two fixed sequential measurement runs; 160 measured rows, 80 pairs, 1600 measured exchanges; 32 warmups and 8 canary exchanges separate.",
+    "Fixed balanced AB/BA order, 196676-byte frame ceiling, bounded files and descriptive per-run summaries with no efficacy or device inference.",
+    "Independent verifier reconstructs schedules, payload hashes, counters, complete journals and summaries; rejects incomplete or failed artifacts."
+  ],
+  "resolved_draft_findings": [
+    "Late successful syscall bytes were lost before post-syscall deadline checks.",
+    "Failures lacked partial totals and active command evidence.",
+    "Cleanup exceptions discarded owned-child attempted-signal and unreaped state.",
+    "Close/terminal-journal failures could prevent remaining cleanup or result preservation.",
+    "Admission/canary/previous-result provenance was not rechecked at completion."
+  ],
+  "remaining_blockers": [],
+  "limits": [
+    "PASS is source-and-synthetic-test review only, not socket capability evidence or permission to collect.",
+    "The designated reviewer separately admits and reviews the bounded canary before measurement, and retains exact external admission/canary receipts.",
+    "User-space deadlines are not hard OS containment; scheduling, codec work and file syscalls may overshoot. Abrupt death may leave incomplete evidence.",
+    "Standalone verifier checks internal hash consistency, not malicious-producer honesty; the designated reviewer compares external receipts.",
+    "Root tests containing real timing/process experiments were intentionally unrun.",
+    "Any post-canary source change requires a new protocol version and fresh independent admission; failures are not replaced."
+  ]
+}

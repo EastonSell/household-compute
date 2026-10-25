@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "upstream_commit": "9e3215eebf92a3a4ae3f74275494cc754a45c06b",
+  "frozen_at_utc": "2026-10-25T06:44:39.125040+00:00",
+  "sources": {
+    "PROTOCOL.md": "f95da1c80aa0575e320c70cb91266e810f72d21791a488bbdee4978e4c5e17c4",
+    "benchmark.py": "9cbebec770994186c8ccc98cfe376d54000af5780f213d7cfc7755419ce4a12b",
+    "verify_results.py": "d368a59467506b89d9dec2314a350d4d9a28ba1108a518d287052f3c88e107c6",
+    "test_benchmark.py": "0dc7ad08f77dc645c3a70eb3f6a791cee8228250fbbc2c7d54581e2b99158afa",
+    "test_verify_results.py": "7fd75919cdea0beca28cb0f109cb45ac542c048fa62a9f3a23a5907244842460",
+    "BASELINE_UPSTREAM.json": "b5020e976850e1e33e41dda0ee488fa4b7e6dda9f8d71225f61c8732c6adb4b0",
+    "BASELINE_PRE_DATA.json": "3ff03193a1545bc5f54b7f8adfb99add5447f7a1c2aa99625e64823863aeede8",
+    "../tcp-framing-codec/mesh_codec.py": "3fcb2b2dffd7d95e56d4887ce02a63482ff612b4a7c0313e9fbcb715a419b5aa"
+  }
+}

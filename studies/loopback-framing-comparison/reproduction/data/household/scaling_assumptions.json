@@ -1,0 +1,176 @@
+{
+  "verified_date": "2026-10-22",
+  "consent": "All included devices and households fully informed, consenting and authorized. No nonconsenting-device scenario.",
+  "models": [
+    {
+      "label": "Llama 3.1 8B",
+      "parameters_billion_rounded": 8,
+      "layers": 32,
+      "hidden_size": 4096,
+      "attention_heads": 32,
+      "kv_heads": 8,
+      "head_dim": 128
+    },
+    {
+      "label": "Llama 3.1 70B",
+      "parameters_billion_rounded": 70,
+      "layers": 80,
+      "hidden_size": 8192,
+      "attention_heads": 64,
+      "kv_heads": 8,
+      "head_dim": 128
+    },
+    {
+      "label": "Llama 3.1 405B",
+      "parameters_billion_rounded": 405,
+      "layers": 126,
+      "hidden_size": 16384,
+      "attention_heads": 128,
+      "kv_heads": 8,
+      "head_dim": 128
+    }
+  ],
+  "sources": [
+    {
+      "id": "census2021",
+      "url": "https://www2.census.gov/library/publications/2024/demo/acs-56.pdf",
+      "title": "Computer and Internet Use in the United States: 2021",
+      "published": "2024-06",
+      "observed": "2021",
+      "method": "2021 ACS one-year estimates; ACS annual sample approximately 3.5 million addresses. Table 1.",
+      "facts": {
+        "households_with_desktop_or_laptop_pct": 80.5,
+        "households_with_smartphone_pct": 90.0,
+        "households_with_tablet_pct": 63.8
+      },
+      "limitation": "Presence of at least one device, not number, RAM, available memory or simultaneous availability; broadband includes cellular."
+    },
+    {
+      "id": "deloitte2023",
+      "url": "https://www.deloitte.com/us/en/insights/industry/telecommunications/connectivity-mobile-trends-survey/2023/connectivity-mobile-trends-survey-full-report.html",
+      "title": "2023 Connected Consumer survey",
+      "observed": "2023-Q2",
+      "method": "2,018 US consumers; weighted to most recent US Census. Household counts reported by consumers.",
+      "facts": {
+        "mean_connected_devices": 21,
+        "mean_device_types": 13
+      },
+      "limitation": "Not current 2026 inventory and not 21 inference-capable devices; does not establish available RAM."
+    },
+    {
+      "id": "llama_paper",
+      "url": "https://arxiv.org/html/2407.21783v3#S3.T3",
+      "title": "The Llama 3 Herd of Models, Table 3",
+      "observed": "2024",
+      "facts": "Dense representative 8B,70B,405B; layers32,80,126; hidden4096,8192,16384; attentionheads32,64,128; KVheads8 each.",
+      "limitation": "Rounded marketing parameter counts. Not a claim of current state of the art."
+    },
+    {
+      "id": "ggml",
+      "url": "https://github.com/ggml-org/llama.cpp/wiki/Tensor-Encoding-Schemes",
+      "title": "llama.cpp Tensor Encoding Schemes",
+      "facts": "Q4_K tensor encoding uses4.5 bits per weight, Q6_K6.5625. Mixed tensor choices and metadata mean a nominal4-bit file is not exactly0.5 bytes per parameter.",
+      "limitation": "Tensor encoding sizes are not full model file sizes or peak runtime RAM."
+    },
+    {
+      "id": "hf_cache",
+      "url": "https://huggingface.co/docs/transformers/en/kv_cache",
+      "title": "Transformers Cache strategies",
+      "facts": "KVcache stores attention keys/values; dynamic cache grows with sequence. Static/quantized/offloaded caches have different memory-performance tradeoffs."
+    },
+    {
+      "id": "hf_memory",
+      "url": "https://github.com/huggingface/accelerate/blob/main/docs/source/usage_guides/model_size_estimator.md",
+      "title": "Accelerate model memory estimator",
+      "facts": "Weight loading memory is not inference memory."
+    },
+    {
+      "id": "petals",
+      "url": "https://arxiv.org/html/2312.08361v1#S4.T2",
+      "title": "Distributed Inference and Fine-tuning of Large Language Models Over The Internet",
+      "observed": "2023-12-13",
+      "facts": "Table2: Llama2 70B NF4, three16GB T4 GPUs, oneclient, sequence128:2.29 sequential steps/s at100Mbit/s RTT<5ms;1.57 at100Mbit/s RTT100ms. Table3 real-world BLOOM176B:14 heterogeneous servers,0.83steps/s atsequence128.",
+      "limitation": "Measured research deployments, not household laptop/phone/fridge benchmark. Controlled network examples are not US broadband population averages."
+    }
+  ],
+  "household_memory_budgets_gib": [
+    4,
+    12,
+    24
+  ],
+  "household_budgets_status": "Illustrative simultaneously usable runtime-addressable budgets, NOT measured US averages; no claim that memory can be pooled without constraints.",
+  "weight_bits": [
+    4,
+    8,
+    16
+  ],
+  "context_tokens": 8192,
+  "concurrent_sequences": 1,
+  "kv_bytes_per_element": 2,
+  "illustrative_weight_overhead_fraction": 0.2,
+  "illustrative_aggregate_extra_workspace_gib": 2,
+  "overhead_status": "Sensitivity assumptions only, not measurements or guaranteed sufficient allocations. Additional per-device workspace and replication can exceed this envelope.",
+  "formulas": {
+    "weight_floor_gib": "P_billions * 1e9 * bits / 8 / 2**30",
+    "kv_gib": "2 * layers * kv_heads * head_dim * context_tokens * concurrent_sequences * kv_bytes_per_element / 2**30",
+    "illustrative_envelope_gib": "weight_floor_gib * 1.2 + kv_gib + 2",
+    "weight_only_household_lower_bound": "ceil(weight_floor_gib / household_available_gib)",
+    "illustrative_envelope_households": "ceil(illustrative_envelope_gib / household_available_gib)"
+  },
+  "household_baskets": {
+    "status": "Illustrative device-informed baskets, not surveyed US averages, percentile households, or measured feasible allocations. Vendor RAM labels preserved in GB; selected usable budgets in GiB are independent engineering assumptions, not a unit conversion of vendor labels.",
+    "low": {
+      "available_gib": 4,
+      "devices": [
+        {
+          "example": "MacBook Air M1 (2020), 8GB configuration",
+          "count": 1,
+          "vendor_installed_ram": "8GB unified memory",
+          "assumed_usable_gib_each": 4,
+          "source": "https://support.apple.com/en-us/111883"
+        }
+      ]
+    },
+    "middle": {
+      "available_gib": 12,
+      "devices": [
+        {
+          "example": "MacBook Air M4 (2025), 16GB configuration",
+          "count": 1,
+          "vendor_installed_ram": "16GB unified memory",
+          "assumed_usable_gib_each": 8,
+          "source": "https://support.apple.com/en-us/122209"
+        },
+        {
+          "example": "Google Pixel 9 (2024)",
+          "count": 2,
+          "vendor_installed_ram": "12GB RAM",
+          "assumed_usable_gib_each": 2,
+          "source": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+        }
+      ]
+    },
+    "high": {
+      "available_gib": 24,
+      "devices": [
+        {
+          "example": "MacBook Air M4 (2025), 32GB configuration",
+          "count": 1,
+          "vendor_installed_ram": "32GB unified memory",
+          "assumed_usable_gib_each": 16,
+          "source": "https://support.apple.com/en-us/122209"
+        },
+        {
+          "example": "Google Pixel 9 (2024)",
+          "count": 2,
+          "vendor_installed_ram": "12GB RAM",
+          "assumed_usable_gib_each": 4,
+          "source": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+        }
+      ]
+    },
+    "other_consented_devices": "Fully consenting TVs, routers, consoles, smart fridges, wearables and microcontrollers may still perform useful work; no LLM weight-memory allocation is assumed without runtime access and measurement. Zero budget means uncredited capacity, not zero computing capability.",
+    "memory_dominance": "In these deliberately chosen budgets, the laptop contributes100% of low capacity and two-thirds of middle/high capacity; phones the remainder. This is a property of scenarios, not a population finding.",
+    "validation": "Available appRAM, accelerator accessibility, local shards, sharedRAM non-double-counting, thermal dutycycle and interdevice communication require actual measurement. Vendor specification URLs are listed with each device."
+  }
+}

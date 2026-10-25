@@ -1,0 +1,22 @@
+{
+  "description": "Invented inputs for model behavior, not specifications or measured hardware performance. ESP32-class placeholder models a small memory budget, not a particular board.",
+  "devices": [
+    {"id": "laptop", "consent": true, "memory_bytes": 4000000000, "ops_per_second": 1000000000},
+    {"id": "small_cpu", "consent": true, "memory_bytes": 256000000, "ops_per_second": 100000000},
+    {"id": "esp32_class_placeholder", "consent": true, "memory_bytes": 200000, "ops_per_second": 1000000},
+    {"id": "not_opted_in", "consent": false, "memory_bytes": 8000000000, "ops_per_second": 10000000000}
+  ],
+  "links": [
+    {"source": "small_cpu", "target": "laptop", "bytes_per_second": 1000000, "latency_ms": 10}
+  ],
+  "stages": [
+    {"id": "encoder", "operations": 100000000, "weights_bytes": 2000000, "workspace_bytes": 500000, "output_bytes": 1000000},
+    {"id": "decoder", "operations": 500000000, "weights_bytes": 4000000, "workspace_bytes": 1000000, "output_bytes": 1000}
+  ],
+  "placements": [
+    {"name": "laptop_only", "devices": ["laptop", "laptop"]},
+    {"name": "split_pipeline", "devices": ["small_cpu", "laptop"]},
+    {"name": "esp32_rejected", "devices": ["esp32_class_placeholder", "laptop"]},
+    {"name": "consent_rejected", "devices": ["not_opted_in", "not_opted_in"]}
+  ]
+}

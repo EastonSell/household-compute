@@ -1,0 +1,28 @@
+test_bad_iteration_counts_fail_before_operation (test_benchmark.AccountingTests.test_bad_iteration_counts_fail_before_operation) ... ok
+test_batch_keeps_wall_and_cpu_distinct_and_last_value (test_benchmark.AccountingTests.test_batch_keeps_wall_and_cpu_distinct_and_last_value) ... ok
+test_schedule_is_reproducible_complete_and_not_fixed_order (test_benchmark.AccountingTests.test_schedule_is_reproducible_complete_and_not_fixed_order) ... ok
+test_summary_uses_batches_not_pooled_iterations (test_benchmark.AccountingTests.test_summary_uses_batches_not_pooled_iterations) ... ok
+test_zero_or_reversing_timers_rejected (test_benchmark.AccountingTests.test_zero_or_reversing_timers_rejected) ... ok
+test_exact_sizes_values_and_round_trips (test_benchmark.FixtureTests.test_exact_sizes_values_and_round_trips) ... ok
+test_payload_copy_is_fresh_not_bytes_identity (test_benchmark.FixtureTests.test_payload_copy_is_fresh_not_bytes_identity) ... ok
+test_wrong_operation_result_cannot_pass_untimed_validation (test_benchmark.FixtureTests.test_wrong_operation_result_cannot_pass_untimed_validation) ... ok
+test_exclusive_output_never_replaces_old_evidence (test_benchmark.IntegrityTests.test_exclusive_output_never_replaces_old_evidence) ... ok
+test_freeze_rejects_missing_malformed_or_changed_files (test_benchmark.IntegrityTests.test_freeze_rejects_missing_malformed_or_changed_files) ... ok
+test_nonfinite_json_output_is_rejected_before_creating_file (test_benchmark.IntegrityTests.test_nonfinite_json_output_is_rejected_before_creating_file) ... ok
+test_fake_clock_run_retains_complete_grid_and_terminal_journal (test_benchmark.RunnerTests.test_fake_clock_run_retains_complete_grid_and_terminal_journal) ... ok
+test_fixture_setup_failure_retains_explicit_terminal_failure (test_benchmark.RunnerTests.test_fixture_setup_failure_retains_explicit_terminal_failure) ... ok
+test_output_budget_rejection_leaves_no_partial_result (test_benchmark.RunnerTests.test_output_budget_rejection_leaves_no_partial_result) ... ok
+test_time_budget_failure_is_recorded_not_complete (test_benchmark.RunnerTests.test_time_budget_failure_is_recorded_not_complete) ... ok
+test_timer_failure_retains_prior_row_and_does_not_retry (test_benchmark.RunnerTests.test_timer_failure_retains_prior_row_and_does_not_retry) ... ok
+test_journal_must_match_complete_result_and_no_extra_events (test_verify_results.VerificationTests.test_journal_must_match_complete_result_and_no_extra_events) ... ok
+test_rejects_changed_summary_config_identity_inputs_and_sources (test_verify_results.VerificationTests.test_rejects_changed_summary_config_identity_inputs_and_sources) ... ok
+test_rejects_impossible_batch_or_aggregate_duration (test_verify_results.VerificationTests.test_rejects_impossible_batch_or_aggregate_duration) ... ok
+test_rejects_missing_duplicate_reordered_and_extra_rows (test_verify_results.VerificationTests.test_rejects_missing_duplicate_reordered_and_extra_rows) ... ok
+test_rejects_timing_tampering_and_boolean_numeric_aliases (test_verify_results.VerificationTests.test_rejects_timing_tampering_and_boolean_numeric_aliases) ... ok
+test_strict_json_rejects_duplicate_keys_nonfinite_and_oversize (test_verify_results.VerificationTests.test_strict_json_rejects_duplicate_keys_nonfinite_and_oversize) ... ok
+test_valid_synthetic_grid_recomputes_every_row (test_verify_results.VerificationTests.test_valid_synthetic_grid_recomputes_every_row) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.626s
+
+OK

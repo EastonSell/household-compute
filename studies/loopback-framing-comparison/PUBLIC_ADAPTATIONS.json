@@ -1,0 +1,130 @@
+{
+  "files": {
+    "RESULTS.md": {
+      "changes": [
+        "Update reader-facing audit status and package-relative evidence links only; retain every numerical result and the qualified causal explanation.",
+        "Explicitly distinguish unchanged scientific evidence and baseline files from the three mapped frozen-prose derivatives."
+      ],
+      "original_sha256": "031a0e3197892ef47becab3cbb8a3e3407bea75ca1920a9a73039de90c8a014b",
+      "public_sha256": "c611c6934d943567fbc5ead995db12ab86ae982d1dbc741d08f3c7f299f87df0"
+    },
+    "reproduction/studies/loopback-framing-comparison/IMPLEMENTATION_PLAN.md": {
+      "changes": [
+        "Replace internal coordination-role labels with neutral reviewer or collection-operator roles; repository-root references are unchanged."
+      ],
+      "original_sha256": "912fe3a72a88ac620ac3846d27ff81b47f603b9ea414b3051d94774a6b17917c",
+      "public_sha256": "7a5c19401896d1d748ef6318822b5a3db8b8426c5bd5d775c73a8969d728c31d"
+    },
+    "reproduction/studies/loopback-framing-comparison/PROTOCOL.md": {
+      "changes": [
+        "Replace internal coordination-role labels with neutral reviewer or collection-operator roles; repository-root references are unchanged."
+      ],
+      "original_sha256": "68690f315f30356f154f1f6a548da494de0494e51ebad0bd496e0a1bcb0dbf03",
+      "public_sha256": "fa17e52b3b7573772fccd7b30a5bdb1cd154e6889f8b5b29297f06ce61563a51"
+    },
+    "reproduction/studies/loopback-framing-comparison/README.md": {
+      "changes": [
+        "Replace internal coordination-role labels with neutral reviewer or collection-operator roles; repository-root references are unchanged."
+      ],
+      "original_sha256": "a473f7fa9958c1482b985a614a4f1ccc04a31327644db3204f6b07d267c63445",
+      "public_sha256": "b65aa3c825ca1896e14401829417f3561dab6b9c726bfced692509ee4e69f707"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_INTEGRATION_FIXED.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "234f3cb543f6152c4c788a21c2ab40269c8e8eb0c2274bbcdf0c411e53657277",
+      "public_sha256": "b0d27ec2a1dc2f46b7a8119685d951e22c5630af73a01f83e417d32ab2850ffb"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_INTEGRATION_PREP.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "8ac10cfd660e11d1dcc52183f8022bd85c810da936717482fe1db376714e55b3",
+      "public_sha256": "45bcd665fc4b2f7429e36b29577437f11c84895beb13089a3f559ad7b9a4bf2d"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_ADAPTER.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "d5747a2a5f845442917856b9c9d556279485ab29c8beab94578e5920300f77d6",
+      "public_sha256": "4ef0e8554c2eae05cc143c3983735875d7cae1c6d6bb6301a4dc8fc771bf2de7"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_BENCHMARK.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "6ca2552fe55e491295239c34c8c4eed0bfd3bc74c5629b67feccdf62e9eb2bed",
+      "public_sha256": "3cb630d99e0edd190c86b39cc6cb5d61edb452e4e830195ca5c7022b89b1f1c2"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_CLOSE_CLEANUP.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label.",
+        "Replace one temporary test-output directory span in a ResourceWarning; preserve warning, failure and line metadata."
+      ],
+      "original_sha256": "230402bbb296f8be128b7671d2358e9549564eda09c6c437c1916b02fc336b11",
+      "public_sha256": "fb95414d5ddb01a6e072670201ef6235ef3734355f4a8e33bd890b708fa3bc91"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_FAILURE_EVIDENCE.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "26f478da00238174b7a4a5e202960e50d16279286950733f4d665e532fe04535",
+      "public_sha256": "fa5d67ffe4c937c2905207a73194bd92b57dc86b57134966388c0fda0716a678"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_PARTIAL_EVIDENCE.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "617d5f13ae7fa62b7f20974ba6695bf3623851535545717ff2e57c3e30797cda",
+      "public_sha256": "3f7218b9a27be57ae0ac757950643f5c59d3a7e498dbed8fcb5718dca8f880d2"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "975e5b4dc77c3d8832a2866d1eceddb30136e8b1e24617c12c3838aa7a5f21be",
+      "public_sha256": "1eb9e225acb7b4c9fb0889bc4ec7cd705c2cedea2d06fbe7190815518088cc49"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER_BOOL.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "7b852e94f8a7eb0e99970244051d6bbb99c0bf8a710095db336fd695d0024851",
+      "public_sha256": "e22ef48cccd808b077be08030685227e5824bab553255ef9ea71a01d4a7120d3"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER_SCHEMA.txt": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "f1bde8595810fb5608da0b177fe1f47e7aeb57e89f91256902d3c92fecb9d327",
+      "public_sha256": "f01d6117f2d54feb045330787edbd28a0226163286e1f28a9173ad22e0023f55"
+    },
+    "reviews/POSTRUN_REVIEW.json": {
+      "changes": [
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "07f8fc77ba8ae72dc9306e1f2bf3097c083f8a6452836406200cb1be2f5138a6",
+      "public_sha256": "7b253dfd31c770227a56d68a49fd7692c477daf719e0f2f91092d7b20c353ac7"
+    },
+    "reviews/REVIEW.json": {
+      "changes": [
+        "Replace internal coordination-role labels with neutral reviewer or collection-operator roles; repository-root references are unchanged.",
+        "Replace local traceback/candidate-location paths with package-relative reproduction paths or a generic standard-library label."
+      ],
+      "original_sha256": "83e4a60bf860bc5bedc9d706cb6d22f0b2b2702bcf1bf5584f9321d4cc6e6d1e",
+      "public_sha256": "bc3c3ece5e288bbc2e772071db1b9b9b16bb7e6708aca403fb61ae3d65b84da2"
+    },
+    "reviews/REVIEW.md": {
+      "changes": [
+        "Replace internal coordination-role labels with neutral reviewer or collection-operator roles; repository-root references are unchanged."
+      ],
+      "original_sha256": "3553edc6d166cd87d9f27b7677da5306058095ee9a0e4a9a2dac642cc8095285",
+      "public_sha256": "2053aec989d1621822ed8ff39588b6ffc620a61f39959f1f4639156d062d7be5"
+    }
+  },
+  "original_freeze_sha256": "c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65",
+  "original_postdata_sha256": "13a8694371348c7ce725954021ab7ef656c1db20ba3006145f636313a08093d3",
+  "schema": 1,
+  "scope": "Only documented coordination-role prose, local-path log/review metadata, and reader-facing status/links. All measured data, journals, receiver results, scientific code, tests, schedules and numerical summaries are byte-identical."
+}

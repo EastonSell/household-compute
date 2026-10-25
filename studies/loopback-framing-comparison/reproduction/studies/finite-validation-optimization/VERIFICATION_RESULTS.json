@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "runs": [
+    {
+      "run_id": "run-001",
+      "rows": 240,
+      "allocation_rows": 96,
+      "paired_cells": 12
+    },
+    {
+      "run_id": "run-002",
+      "rows": 240,
+      "allocation_rows": 96,
+      "paired_cells": 12
+    }
+  ]
+}

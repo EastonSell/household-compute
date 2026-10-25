@@ -1,0 +1,17 @@
+test_accept_rejects_nonloopback_peer (test_adapter.AdapterTests.test_accept_rejects_nonloopback_peer) ... ok
+test_already_reaped_child_not_signaled (test_adapter.AdapterTests.test_already_reaped_child_not_signaled) ... ok
+test_backward_and_nonfinite_clocks_rejected (test_adapter.AdapterTests.test_backward_and_nonfinite_clocks_rejected) ... ok
+test_clean_child_is_reaped_without_signals (test_adapter.AdapterTests.test_clean_child_is_reaped_without_signals) ... ok
+test_connect_in_progress_and_refused (test_adapter.AdapterTests.test_connect_in_progress_and_refused) ... ok
+test_eof_and_zero_write_are_terminal (test_adapter.AdapterTests.test_eof_and_zero_write_are_terminal) ... ok
+test_escalation_only_targets_same_owned_child (test_adapter.AdapterTests.test_escalation_only_targets_same_owned_child) ... ok
+test_expired_cleanup_never_claims_reaped (test_adapter.AdapterTests.test_expired_cleanup_never_claims_reaped) ... ok
+test_forbids_nonloopback_and_bad_ports_before_connect (test_adapter.AdapterTests.test_forbids_nonloopback_and_bad_ports_before_connect) ... ok
+test_partial_send_and_recv_account_actual_bytes (test_adapter.AdapterTests.test_partial_send_and_recv_account_actual_bytes) ... ok
+test_readiness_does_not_extend_expired_deadline (test_adapter.AdapterTests.test_readiness_does_not_extend_expired_deadline) ... ok
+test_would_block_and_interrupt_keep_deadline (test_adapter.AdapterTests.test_would_block_and_interrupt_keep_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

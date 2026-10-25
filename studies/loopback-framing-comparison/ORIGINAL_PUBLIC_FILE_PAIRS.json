@@ -1,0 +1,601 @@
+{
+  "files": {
+    "RESULTS.md": {
+      "original_sha256": "031a0e3197892ef47becab3cbb8a3e3407bea75ca1920a9a73039de90c8a014b",
+      "public_sha256": "c611c6934d943567fbc5ead995db12ab86ae982d1dbc741d08f3c7f299f87df0"
+    },
+    "admissions/canary.json": {
+      "original_sha256": "33025388d52d2d5c612e642bde14859570b11d843a247c7d42a0cc4ae0690155",
+      "public_sha256": "33025388d52d2d5c612e642bde14859570b11d843a247c7d42a0cc4ae0690155"
+    },
+    "admissions/collection.json": {
+      "original_sha256": "a1765fc890c84e3de8641fe1cd00f8da2fe709944dc8c10fa97bfaa9f907303c",
+      "public_sha256": "a1765fc890c84e3de8641fe1cd00f8da2fe709944dc8c10fa97bfaa9f907303c"
+    },
+    "reproduction/.gitignore": {
+      "original_sha256": "5d1c17b735d79eaa798e78438ea3aa90d7bdd721ddd5f0d22a1c15085869be4c",
+      "public_sha256": "5d1c17b735d79eaa798e78438ea3aa90d7bdd721ddd5f0d22a1c15085869be4c"
+    },
+    "reproduction/HOUSEHOLD_ATLAS.md": {
+      "original_sha256": "4d978ec703bc5abb428f7aa6be5f6c0b7b1208e6f5ee4b06c2335cf54b35754c",
+      "public_sha256": "4d978ec703bc5abb428f7aa6be5f6c0b7b1208e6f5ee4b06c2335cf54b35754c"
+    },
+    "reproduction/LICENSE": {
+      "original_sha256": "678e9c615789dd91c998713a40189f34c0511bd8e2088440048f9e91c5ff76d8",
+      "public_sha256": "678e9c615789dd91c998713a40189f34c0511bd8e2088440048f9e91c5ff76d8"
+    },
+    "reproduction/README.md": {
+      "original_sha256": "556a6ec7cca6652657f50f1e0c9e382d1153c4801cecbb427fb7d55d20897f6a",
+      "public_sha256": "556a6ec7cca6652657f50f1e0c9e382d1153c4801cecbb427fb7d55d20897f6a"
+    },
+    "reproduction/calculations/feasibility.py": {
+      "original_sha256": "5d70c2241a77ed865110ed99f865b142487114039e3974860818c10fa9cb47f0",
+      "public_sha256": "5d70c2241a77ed865110ed99f865b142487114039e3974860818c10fa9cb47f0"
+    },
+    "reproduction/data/household/device_evidence.json": {
+      "original_sha256": "7cc5683060e2e9dc7e5f121d56b4799f2c0f29a800b70eda449808b942872f09",
+      "public_sha256": "7cc5683060e2e9dc7e5f121d56b4799f2c0f29a800b70eda449808b942872f09"
+    },
+    "reproduction/data/household/household_baskets.json": {
+      "original_sha256": "9e02f1f9a3409447889843fb440eb2c595b453410a2c06815fca92cf8570f725",
+      "public_sha256": "9e02f1f9a3409447889843fb440eb2c595b453410a2c06815fca92cf8570f725"
+    },
+    "reproduction/data/household/scaling_assumptions.json": {
+      "original_sha256": "5eea34704e194cdac5891eada8e88198838c983fc18696c48be19fd159a3da11",
+      "public_sha256": "5eea34704e194cdac5891eada8e88198838c983fc18696c48be19fd159a3da11"
+    },
+    "reproduction/examples/illustrative.json": {
+      "original_sha256": "99bc5a82f0b4b3ba70072a285ae1fb427996c5f95b69c5aac3b729cb4e546a34",
+      "public_sha256": "99bc5a82f0b4b3ba70072a285ae1fb427996c5f95b69c5aac3b729cb4e546a34"
+    },
+    "reproduction/mesh/__init__.py": {
+      "original_sha256": "0f36dd550c00a07c575566cd8e7f7a9b64c23b1618ad5081fba799a72f5ba9da",
+      "public_sha256": "0f36dd550c00a07c575566cd8e7f7a9b64c23b1618ad5081fba799a72f5ba9da"
+    },
+    "reproduction/mesh/__main__.py": {
+      "original_sha256": "5b8b07d95ac812d2ae8af85a433bf4c6c3e4e142f28a80647fcf611b296dd34d",
+      "public_sha256": "5b8b07d95ac812d2ae8af85a433bf4c6c3e4e142f28a80647fcf611b296dd34d"
+    },
+    "reproduction/mesh/benchmark.py": {
+      "original_sha256": "6164b4585f80aa72bb4a13ae9fb4517c27ec0161c60158bbf67d01965629c744",
+      "public_sha256": "6164b4585f80aa72bb4a13ae9fb4517c27ec0161c60158bbf67d01965629c744"
+    },
+    "reproduction/mesh/household.py": {
+      "original_sha256": "4359227a03323b6efb4d815bf0a735575b7977b9f1656a6ea68e3a598b5a5d1b",
+      "public_sha256": "4359227a03323b6efb4d815bf0a735575b7977b9f1656a6ea68e3a598b5a5d1b"
+    },
+    "reproduction/mesh/household_charts.py": {
+      "original_sha256": "ce261d4b476e39e594f710f66e2e9a994bbabb048764a2b00a6602fd0597f03a",
+      "public_sha256": "ce261d4b476e39e594f710f66e2e9a994bbabb048764a2b00a6602fd0597f03a"
+    },
+    "reproduction/mesh/household_report.py": {
+      "original_sha256": "6cf0c88f39c2d2e8d8ba0a74f92b1afd6d1d11afb6e086a44fc5c85ad203d075",
+      "public_sha256": "6cf0c88f39c2d2e8d8ba0a74f92b1afd6d1d11afb6e086a44fc5c85ad203d075"
+    },
+    "reproduction/mesh/model.py": {
+      "original_sha256": "6261d97c45ddde5a7b4b629ae4a38bc8754c07c2cf9f754502f0c924a4462f47",
+      "public_sha256": "6261d97c45ddde5a7b4b629ae4a38bc8754c07c2cf9f754502f0c924a4462f47"
+    },
+    "reproduction/mesh/pretrained_experiment.py": {
+      "original_sha256": "a8dff6f1fe3d382565ae089feb952481728b86cc32a2b2e8e7ccfe5e2d5a553f",
+      "public_sha256": "a8dff6f1fe3d382565ae089feb952481728b86cc32a2b2e8e7ccfe5e2d5a553f"
+    },
+    "reproduction/mesh/pretrained_model.py": {
+      "original_sha256": "1600176d030509d9aa08a2b41335ee21ebcb12cb9a2ac68c1b301f75459fba86",
+      "public_sha256": "1600176d030509d9aa08a2b41335ee21ebcb12cb9a2ac68c1b301f75459fba86"
+    },
+    "reproduction/mesh/pretrained_protocol.py": {
+      "original_sha256": "49de760965e31a5d400d181aff7def8468f1fa5ea73c7d3f010d99bec41ec6ee",
+      "public_sha256": "49de760965e31a5d400d181aff7def8468f1fa5ea73c7d3f010d99bec41ec6ee"
+    },
+    "reproduction/mesh/pretrained_session.py": {
+      "original_sha256": "242ab20a765bb444f26a072f66549c0f1fafaa346235a3f6dcd4ff63e563f000",
+      "public_sha256": "242ab20a765bb444f26a072f66549c0f1fafaa346235a3f6dcd4ff63e563f000"
+    },
+    "reproduction/mesh/process_cli.py": {
+      "original_sha256": "d7768bc124d9bb83b53b07501397eee6510ae910d501aea8941b3f0730ff5c56",
+      "public_sha256": "d7768bc124d9bb83b53b07501397eee6510ae910d501aea8941b3f0730ff5c56"
+    },
+    "reproduction/mesh/process_mesh.py": {
+      "original_sha256": "aec069efda30897bbccbcc0ddc55cbf048dc948fda36c4b42e264fb42faa9a64",
+      "public_sha256": "aec069efda30897bbccbcc0ddc55cbf048dc948fda36c4b42e264fb42faa9a64"
+    },
+    "reproduction/mesh/repeated.py": {
+      "original_sha256": "e6e7e39d1be568f9f613e6c827c328b2c1cadfc963f2b804a5b720dbb2f8d048",
+      "public_sha256": "e6e7e39d1be568f9f613e6c827c328b2c1cadfc963f2b804a5b720dbb2f8d048"
+    },
+    "reproduction/mesh/session.py": {
+      "original_sha256": "ce3c2c658b61fb8fa1da2664b758a33d9c89933cc268f57e753d4df3c4e38a9c",
+      "public_sha256": "ce3c2c658b61fb8fa1da2664b758a33d9c89933cc268f57e753d4df3c4e38a9c"
+    },
+    "reproduction/studies/README.md": {
+      "original_sha256": "8ade9c17b439abc34826b1775fdebc0f805973e05b91420b850e59f75e6609d2",
+      "public_sha256": "8ade9c17b439abc34826b1775fdebc0f805973e05b91420b850e59f75e6609d2"
+    },
+    "reproduction/studies/finite-validation-optimization/ARTIFACTS_SHA256.json": {
+      "original_sha256": "f02e0daa87fcaf0058c30413501673c1cadea5d3b82f5db31225c444480a6899",
+      "public_sha256": "f02e0daa87fcaf0058c30413501673c1cadea5d3b82f5db31225c444480a6899"
+    },
+    "reproduction/studies/finite-validation-optimization/BASELINE_PRE_DATA.json": {
+      "original_sha256": "978f4411f6ad136a1bc0d502bc2c6551074f9559db03bcba6a87efcf7b74b43a",
+      "public_sha256": "978f4411f6ad136a1bc0d502bc2c6551074f9559db03bcba6a87efcf7b74b43a"
+    },
+    "reproduction/studies/finite-validation-optimization/CANDIDATE_DIFF.patch": {
+      "original_sha256": "120bef6119d2ea6dc4a9bec07f7e02e513110b93b2955254db41d9e4a2210669",
+      "public_sha256": "120bef6119d2ea6dc4a9bec07f7e02e513110b93b2955254db41d9e4a2210669"
+    },
+    "reproduction/studies/finite-validation-optimization/COLLECTION_RECEIPT.json": {
+      "original_sha256": "f767a0854badd86eb131daf44ff8e1bf4d831f834e83ba7698e6638d9881e2c6",
+      "public_sha256": "f767a0854badd86eb131daf44ff8e1bf4d831f834e83ba7698e6638d9881e2c6"
+    },
+    "reproduction/studies/finite-validation-optimization/POST_DATA_ARTIFACTS_SHA256.json": {
+      "original_sha256": "f8fe57cb568277098ac5240fbf3b48a302e4468c981e14fdee1c97c5d812623f",
+      "public_sha256": "f8fe57cb568277098ac5240fbf3b48a302e4468c981e14fdee1c97c5d812623f"
+    },
+    "reproduction/studies/finite-validation-optimization/POST_DATA_PRESERVATION.json": {
+      "original_sha256": "33a175937d7cb28be3e347456b268905a48555dd8db9e6cafde606af21a30ee5",
+      "public_sha256": "33a175937d7cb28be3e347456b268905a48555dd8db9e6cafde606af21a30ee5"
+    },
+    "reproduction/studies/finite-validation-optimization/PRE_DATA_SHA256.json": {
+      "original_sha256": "5053f3212d4469f69b3d59110153646d2eada24d4153f2b312f6ab9d8c595e89",
+      "public_sha256": "5053f3212d4469f69b3d59110153646d2eada24d4153f2b312f6ab9d8c595e89"
+    },
+    "reproduction/studies/finite-validation-optimization/PROTOCOL.md": {
+      "original_sha256": "d46c938ff9be1193b35cb0dcce44515505e8258476157e39cfff49c469b8033d",
+      "public_sha256": "d46c938ff9be1193b35cb0dcce44515505e8258476157e39cfff49c469b8033d"
+    },
+    "reproduction/studies/finite-validation-optimization/README.md": {
+      "original_sha256": "fcb7089a4369d1d2c887ac7840e2319ebda2acd688b621e83a97ac8ef41d0b87",
+      "public_sha256": "fcb7089a4369d1d2c887ac7840e2319ebda2acd688b621e83a97ac8ef41d0b87"
+    },
+    "reproduction/studies/finite-validation-optimization/RESULTS.md": {
+      "original_sha256": "b5778bba460cdc0ca15b764eef379b35f1136b977de8681711626a80296faedb",
+      "public_sha256": "b5778bba460cdc0ca15b764eef379b35f1136b977de8681711626a80296faedb"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_CANDIDATE.txt": {
+      "original_sha256": "91c374bc62dd7bc8e99147d0ada1185b10cbb98d23e4c005e78e31ebb21dacd9",
+      "public_sha256": "91c374bc62dd7bc8e99147d0ada1185b10cbb98d23e4c005e78e31ebb21dacd9"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_CANDIDATE_OPTIMIZED.txt": {
+      "original_sha256": "d572c9262330958af5bbc7fd5266c02aac9d1224b06d636e79851da031f0af0e",
+      "public_sha256": "d572c9262330958af5bbc7fd5266c02aac9d1224b06d636e79851da031f0af0e"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_ORIGINAL_CODEC.txt": {
+      "original_sha256": "67c4f9abdeb225434082efa9694cba537244ffe1450b3a62ff4d8287a5ef0f05",
+      "public_sha256": "67c4f9abdeb225434082efa9694cba537244ffe1450b3a62ff4d8287a5ef0f05"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_POST_DATA.txt": {
+      "original_sha256": "8e719391772e989fb3b64edf18cdd316232df12985b32eb4f9064c2b60e614a7",
+      "public_sha256": "8e719391772e989fb3b64edf18cdd316232df12985b32eb4f9064c2b60e614a7"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_PRE_DATA.txt": {
+      "original_sha256": "0b6bc351e30ab1428f040bf5e239210fa5e4a33edd475c32338ec2830e79bf9e",
+      "public_sha256": "0b6bc351e30ab1428f040bf5e239210fa5e4a33edd475c32338ec2830e79bf9e"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_PRE_DATA_OPTIMIZED.txt": {
+      "original_sha256": "b217a822d9848f6c2ba84ca2cc2df245fdb4e671952f928f11dd0c0a12c52649",
+      "public_sha256": "b217a822d9848f6c2ba84ca2cc2df245fdb4e671952f928f11dd0c0a12c52649"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_PRIOR_STUDY.txt": {
+      "original_sha256": "56b2e56b29f427620a1b785d8d9afa430708b814fa37cb7ebe02c1acd7bb678d",
+      "public_sha256": "56b2e56b29f427620a1b785d8d9afa430708b814fa37cb7ebe02c1acd7bb678d"
+    },
+    "reproduction/studies/finite-validation-optimization/TEST_RESULTS_ROOT.txt": {
+      "original_sha256": "b2ebdd238dd4347a3d1b4d623755e940b107807fcb3e6900f745a27bbee9d9f8",
+      "public_sha256": "b2ebdd238dd4347a3d1b4d623755e940b107807fcb3e6900f745a27bbee9d9f8"
+    },
+    "reproduction/studies/finite-validation-optimization/VERIFICATION_PRE_DATA.json": {
+      "original_sha256": "7f4f69ae8ada98810b048ccd4973d7416102c22eddfb71a19b34d05be908b1b6",
+      "public_sha256": "7f4f69ae8ada98810b048ccd4973d7416102c22eddfb71a19b34d05be908b1b6"
+    },
+    "reproduction/studies/finite-validation-optimization/VERIFICATION_RESULTS.json": {
+      "original_sha256": "89dca3129b2ef658606cf609bfae5844b951062b78bc8ef2af2385c92c6d9e26",
+      "public_sha256": "89dca3129b2ef658606cf609bfae5844b951062b78bc8ef2af2385c92c6d9e26"
+    },
+    "reproduction/studies/finite-validation-optimization/benchmark.py": {
+      "original_sha256": "69ab430954ef9514995319d4ea699b5c72ad427d1f1dbd1f7b9b174f791dcc09",
+      "public_sha256": "69ab430954ef9514995319d4ea699b5c72ad427d1f1dbd1f7b9b174f791dcc09"
+    },
+    "reproduction/studies/finite-validation-optimization/candidate_codec.py": {
+      "original_sha256": "0cde18f73e790b7e7f600bf1dc25f6a9059e2a6289396584698bee0f6e77a58b",
+      "public_sha256": "0cde18f73e790b7e7f600bf1dc25f6a9059e2a6289396584698bee0f6e77a58b"
+    },
+    "reproduction/studies/finite-validation-optimization/runs/run-001/journal.jsonl": {
+      "original_sha256": "169337e425dfd0aaa36a8029a88885b09c8ed457497fa32cb6adc1a8bc5b503d",
+      "public_sha256": "169337e425dfd0aaa36a8029a88885b09c8ed457497fa32cb6adc1a8bc5b503d"
+    },
+    "reproduction/studies/finite-validation-optimization/runs/run-001/result.json": {
+      "original_sha256": "1da177653bfa4e2209b9d25425188f394c2c8b2a13395c831e96beda82505fff",
+      "public_sha256": "1da177653bfa4e2209b9d25425188f394c2c8b2a13395c831e96beda82505fff"
+    },
+    "reproduction/studies/finite-validation-optimization/runs/run-002/journal.jsonl": {
+      "original_sha256": "833b0272f1760bda4bb78994a9bffb798768e8d2bb250081bc6d3cb4fae67c0b",
+      "public_sha256": "833b0272f1760bda4bb78994a9bffb798768e8d2bb250081bc6d3cb4fae67c0b"
+    },
+    "reproduction/studies/finite-validation-optimization/runs/run-002/result.json": {
+      "original_sha256": "31bdfeef07c9194a3c8739dee1f8bc005fcd331c49a4c1d213afb8e7aa32e2ff",
+      "public_sha256": "31bdfeef07c9194a3c8739dee1f8bc005fcd331c49a4c1d213afb8e7aa32e2ff"
+    },
+    "reproduction/studies/finite-validation-optimization/test_benchmark.py": {
+      "original_sha256": "3bc91a772d45f6480970b973f3a3ecc10f0a25a5b57fdd05c4226fd26cc887a6",
+      "public_sha256": "3bc91a772d45f6480970b973f3a3ecc10f0a25a5b57fdd05c4226fd26cc887a6"
+    },
+    "reproduction/studies/finite-validation-optimization/test_candidate_codec.py": {
+      "original_sha256": "f268f4c24adf0098561f411f73744d8fbbdeb21cabd0ee1b1ef1462635bf59a1",
+      "public_sha256": "f268f4c24adf0098561f411f73744d8fbbdeb21cabd0ee1b1ef1462635bf59a1"
+    },
+    "reproduction/studies/finite-validation-optimization/test_verify_results.py": {
+      "original_sha256": "e929ca92381414d7732af7dec3b4b6655a0b6c2be0269830efdef2057ad1cac8",
+      "public_sha256": "e929ca92381414d7732af7dec3b4b6655a0b6c2be0269830efdef2057ad1cac8"
+    },
+    "reproduction/studies/finite-validation-optimization/verify_results.py": {
+      "original_sha256": "85ec925e2bccd42512d27a78a371f56e9bdc288b6a09b77584090edc11e3b736",
+      "public_sha256": "85ec925e2bccd42512d27a78a371f56e9bdc288b6a09b77584090edc11e3b736"
+    },
+    "reproduction/studies/loopback-framing-comparison/BASELINE_INVENTORY.json": {
+      "original_sha256": "2abf473508e4acb7d04d444d30d43e40f2f8bfe3615851e9b652038bee98ca75",
+      "public_sha256": "2abf473508e4acb7d04d444d30d43e40f2f8bfe3615851e9b652038bee98ca75"
+    },
+    "reproduction/studies/loopback-framing-comparison/COLLECTION_RECEIPT.json": {
+      "original_sha256": "d661069333d008b458f3786d23c9248693cfe3bcbe3345664cdcd6b4f76ddf55",
+      "public_sha256": "d661069333d008b458f3786d23c9248693cfe3bcbe3345664cdcd6b4f76ddf55"
+    },
+    "reproduction/studies/loopback-framing-comparison/IMPLEMENTATION_PLAN.md": {
+      "original_sha256": "912fe3a72a88ac620ac3846d27ff81b47f603b9ea414b3051d94774a6b17917c",
+      "public_sha256": "7a5c19401896d1d748ef6318822b5a3db8b8426c5bd5d775c73a8969d728c31d"
+    },
+    "reproduction/studies/loopback-framing-comparison/POST_DATA_SHA256.json": {
+      "original_sha256": "13a8694371348c7ce725954021ab7ef656c1db20ba3006145f636313a08093d3",
+      "public_sha256": "13a8694371348c7ce725954021ab7ef656c1db20ba3006145f636313a08093d3"
+    },
+    "reproduction/studies/loopback-framing-comparison/PRE_DATA_SHA256.json": {
+      "original_sha256": "c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65",
+      "public_sha256": "c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65"
+    },
+    "reproduction/studies/loopback-framing-comparison/PROTOCOL.md": {
+      "original_sha256": "68690f315f30356f154f1f6a548da494de0494e51ebad0bd496e0a1bcb0dbf03",
+      "public_sha256": "fa17e52b3b7573772fccd7b30a5bdb1cd154e6889f8b5b29297f06ce61563a51"
+    },
+    "reproduction/studies/loopback-framing-comparison/README.md": {
+      "original_sha256": "a473f7fa9958c1482b985a614a4f1ccc04a31327644db3204f6b07d267c63445",
+      "public_sha256": "b65aa3c825ca1896e14401829417f3561dab6b9c726bfced692509ee4e69f707"
+    },
+    "reproduction/studies/loopback-framing-comparison/REPORT_REVIEW_CORRECTION.json": {
+      "original_sha256": "d0a5ccb1c87c8e8fac98b1a1822f6ed8c877b100b8252d3cdfc2d029e11c8ec1",
+      "public_sha256": "d0a5ccb1c87c8e8fac98b1a1822f6ed8c877b100b8252d3cdfc2d029e11c8ec1"
+    },
+    "reproduction/studies/loopback-framing-comparison/RESULTS.md": {
+      "original_sha256": "031a0e3197892ef47becab3cbb8a3e3407bea75ca1920a9a73039de90c8a014b",
+      "public_sha256": "031a0e3197892ef47becab3cbb8a3e3407bea75ca1920a9a73039de90c8a014b"
+    },
+    "reproduction/studies/loopback-framing-comparison/SUMMARY.csv": {
+      "original_sha256": "bcb61e04fee2247fa346473879be931764457a22223f75ae142485e224f05092",
+      "public_sha256": "bcb61e04fee2247fa346473879be931764457a22223f75ae142485e224f05092"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_ADAPTER.txt": {
+      "original_sha256": "4d04c384d6744a2120e58938661c497fe9250c142f1b207eeceb442917a991e8",
+      "public_sha256": "4d04c384d6744a2120e58938661c497fe9250c142f1b207eeceb442917a991e8"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_BENCHMARK.txt": {
+      "original_sha256": "5fce99b49bd89e061f7cc7033c4eb3d2657928f34b269746a1df9e6d0a1caf2e",
+      "public_sha256": "5fce99b49bd89e061f7cc7033c4eb3d2657928f34b269746a1df9e6d0a1caf2e"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_CLEANUP.txt": {
+      "original_sha256": "05a976ca5233817bcb9cb772eddbb2b1d84764b2702ba0a9f8ebe0854aba1dcf",
+      "public_sha256": "05a976ca5233817bcb9cb772eddbb2b1d84764b2702ba0a9f8ebe0854aba1dcf"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_FAILURE_EVIDENCE.txt": {
+      "original_sha256": "304e6f886855c28c8b6088986353579cedcdd5efedb3a82f925f6ab0c37f0124",
+      "public_sha256": "304e6f886855c28c8b6088986353579cedcdd5efedb3a82f925f6ab0c37f0124"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_PARTIAL_EVIDENCE.txt": {
+      "original_sha256": "19a9d17519a846f3bfc52f1b46badf80c0327293e3472e6394e22052a51978c1",
+      "public_sha256": "19a9d17519a846f3bfc52f1b46badf80c0327293e3472e6394e22052a51978c1"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_GREEN_PREP.txt": {
+      "original_sha256": "591f8535f69549102310ce9fd83976f8843ff1d953dc32abe6bcdc8689fdd1e0",
+      "public_sha256": "591f8535f69549102310ce9fd83976f8843ff1d953dc32abe6bcdc8689fdd1e0"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_INTEGRATION_FIXED.txt": {
+      "original_sha256": "234f3cb543f6152c4c788a21c2ab40269c8e8eb0c2274bbcdf0c411e53657277",
+      "public_sha256": "b0d27ec2a1dc2f46b7a8119685d951e22c5630af73a01f83e417d32ab2850ffb"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_INTEGRATION_GREEN.txt": {
+      "original_sha256": "23e8cee273de82f7d219df172d47678c44e964a5d463bdc0c2488eb86dc21caa",
+      "public_sha256": "23e8cee273de82f7d219df172d47678c44e964a5d463bdc0c2488eb86dc21caa"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_INTEGRATION_PREP.txt": {
+      "original_sha256": "8ac10cfd660e11d1dcc52183f8022bd85c810da936717482fe1db376714e55b3",
+      "public_sha256": "45bcd665fc4b2f7429e36b29577437f11c84895beb13089a3f559ad7b9a4bf2d"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_ADAPTER.txt": {
+      "original_sha256": "d5747a2a5f845442917856b9c9d556279485ab29c8beab94578e5920300f77d6",
+      "public_sha256": "4ef0e8554c2eae05cc143c3983735875d7cae1c6d6bb6301a4dc8fc771bf2de7"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_BENCHMARK.txt": {
+      "original_sha256": "6ca2552fe55e491295239c34c8c4eed0bfd3bc74c5629b67feccdf62e9eb2bed",
+      "public_sha256": "3cb630d99e0edd190c86b39cc6cb5d61edb452e4e830195ca5c7022b89b1f1c2"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_CLOSE_CLEANUP.txt": {
+      "original_sha256": "230402bbb296f8be128b7671d2358e9549564eda09c6c437c1916b02fc336b11",
+      "public_sha256": "fb95414d5ddb01a6e072670201ef6235ef3734355f4a8e33bd890b708fa3bc91"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_FAILURE_EVIDENCE.txt": {
+      "original_sha256": "26f478da00238174b7a4a5e202960e50d16279286950733f4d665e532fe04535",
+      "public_sha256": "fa5d67ffe4c937c2905207a73194bd92b57dc86b57134966388c0fda0716a678"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_PARTIAL_EVIDENCE.txt": {
+      "original_sha256": "617d5f13ae7fa62b7f20974ba6695bf3623851535545717ff2e57c3e30797cda",
+      "public_sha256": "3f7218b9a27be57ae0ac757950643f5c59d3a7e498dbed8fcb5718dca8f880d2"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER.txt": {
+      "original_sha256": "975e5b4dc77c3d8832a2866d1eceddb30136e8b1e24617c12c3838aa7a5f21be",
+      "public_sha256": "1eb9e225acb7b4c9fb0889bc4ec7cd705c2cedea2d06fbe7190815518088cc49"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER_BOOL.txt": {
+      "original_sha256": "7b852e94f8a7eb0e99970244051d6bbb99c0bf8a710095db336fd695d0024851",
+      "public_sha256": "e22ef48cccd808b077be08030685227e5824bab553255ef9ea71a01d4a7120d3"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RED_VERIFIER_SCHEMA.txt": {
+      "original_sha256": "f1bde8595810fb5608da0b177fe1f47e7aeb57e89f91256902d3c92fecb9d327",
+      "public_sha256": "f01d6117f2d54feb045330787edbd28a0226163286e1f28a9173ad22e0023f55"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_ORIGINAL_CODEC.txt": {
+      "original_sha256": "187e961ebdea7c8db7f530af47ae311f2a2c702bd816a665cb7fb454bd756593",
+      "public_sha256": "187e961ebdea7c8db7f530af47ae311f2a2c702bd816a665cb7fb454bd756593"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRE_DATA.txt": {
+      "original_sha256": "1e19542fb22e9d2d1dc04a22a855e026145832663bc9260235211aa91b9a91da",
+      "public_sha256": "1e19542fb22e9d2d1dc04a22a855e026145832663bc9260235211aa91b9a91da"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRE_DATA_FINAL.txt": {
+      "original_sha256": "f22462826da51a409d87e27e665d3a6c148d01af609c049273324e43c514f360",
+      "public_sha256": "f22462826da51a409d87e27e665d3a6c148d01af609c049273324e43c514f360"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRE_DATA_FINAL_OPTIMIZED.txt": {
+      "original_sha256": "9d3147cb729c3f9c68ec32f39d184ab86c5d5cd4cfdba9c915664e841ee7b341",
+      "public_sha256": "9d3147cb729c3f9c68ec32f39d184ab86c5d5cd4cfdba9c915664e841ee7b341"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRE_DATA_OPTIMIZED.txt": {
+      "original_sha256": "3798cfcb393a39e5cbbcbf01906298d19cbf45846971151d858787f654de8c24",
+      "public_sha256": "3798cfcb393a39e5cbbcbf01906298d19cbf45846971151d858787f654de8c24"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRIOR_FINITE.txt": {
+      "original_sha256": "cd0a2fe5bf66b1dfe90c378978456e998b95974cf5c75f3a45d108df4b2bb9ad",
+      "public_sha256": "cd0a2fe5bf66b1dfe90c378978456e998b95974cf5c75f3a45d108df4b2bb9ad"
+    },
+    "reproduction/studies/loopback-framing-comparison/TEST_RESULTS_PRIOR_SERIALIZATION.txt": {
+      "original_sha256": "c15351d9208fa0d4552cb8a2559585aaa568bcd7d4166ba4b5c19c2223856a43",
+      "public_sha256": "c15351d9208fa0d4552cb8a2559585aaa568bcd7d4166ba4b5c19c2223856a43"
+    },
+    "reproduction/studies/loopback-framing-comparison/benchmark.py": {
+      "original_sha256": "03643c33e70af5be84e1119700623a441a7e45beac70e7e26d9c25c6e007f24c",
+      "public_sha256": "03643c33e70af5be84e1119700623a441a7e45beac70e7e26d9c25c6e007f24c"
+    },
+    "reproduction/studies/loopback-framing-comparison/canary-001/journal.jsonl": {
+      "original_sha256": "f3ae828df2380b16d00a8c380aeb103597b11f32fb8931b3b764377027841b93",
+      "public_sha256": "f3ae828df2380b16d00a8c380aeb103597b11f32fb8931b3b764377027841b93"
+    },
+    "reproduction/studies/loopback-framing-comparison/canary-001/receiver.json": {
+      "original_sha256": "8ef80906f1b6b8fd3a429e8e5d472c740dc424aee24b081cb34a7a9f257322f9",
+      "public_sha256": "8ef80906f1b6b8fd3a429e8e5d472c740dc424aee24b081cb34a7a9f257322f9"
+    },
+    "reproduction/studies/loopback-framing-comparison/canary-001/result.json": {
+      "original_sha256": "a696ec447b357b0eeeddda4be925562f079d6af4d989e588471f4ebe08daf97f",
+      "public_sha256": "a696ec447b357b0eeeddda4be925562f079d6af4d989e588471f4ebe08daf97f"
+    },
+    "reproduction/studies/loopback-framing-comparison/deadline_adapter.py": {
+      "original_sha256": "5e168a0337274653c58acbecc3a512e6f43fda9903a8d590a844e1e78ca05b8c",
+      "public_sha256": "5e168a0337274653c58acbecc3a512e6f43fda9903a8d590a844e1e78ca05b8c"
+    },
+    "reproduction/studies/loopback-framing-comparison/review-history/before-mechanism-qualification-POST_DATA_SHA256.json": {
+      "original_sha256": "65febc3cc03f8b69bc87089374aef01a8f8bb5cd0888d3067abb5f2776eadd7e",
+      "public_sha256": "65febc3cc03f8b69bc87089374aef01a8f8bb5cd0888d3067abb5f2776eadd7e"
+    },
+    "reproduction/studies/loopback-framing-comparison/review-history/before-mechanism-qualification-RESULTS.md": {
+      "original_sha256": "d0ce475e5b79e1f46a80dddfbba654748db4842efd73ed76186de05fe90d7a4c",
+      "public_sha256": "d0ce475e5b79e1f46a80dddfbba654748db4842efd73ed76186de05fe90d7a4c"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-001/journal.jsonl": {
+      "original_sha256": "55b5c5edf896156c003ce7f7ecf13e29557221e5dfc028509120caf89ebf0661",
+      "public_sha256": "55b5c5edf896156c003ce7f7ecf13e29557221e5dfc028509120caf89ebf0661"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-001/receiver.json": {
+      "original_sha256": "91209c2992e941ed5023de9c1b12722ae239279155001bf029095de9176919d5",
+      "public_sha256": "91209c2992e941ed5023de9c1b12722ae239279155001bf029095de9176919d5"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-001/result.json": {
+      "original_sha256": "30409f4fd8133c0fd9afa82ddc6f60ec8856bb445452dc629d485758189c171a",
+      "public_sha256": "30409f4fd8133c0fd9afa82ddc6f60ec8856bb445452dc629d485758189c171a"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-002/journal.jsonl": {
+      "original_sha256": "85e8136194ac343d93dc976a345f5749039074c015c801339d65432a5318b5a2",
+      "public_sha256": "85e8136194ac343d93dc976a345f5749039074c015c801339d65432a5318b5a2"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-002/receiver.json": {
+      "original_sha256": "19e94afe7cb374f8c36a43faed929c2dc7ea60e286bd9bd983bea7c5b74ca492",
+      "public_sha256": "19e94afe7cb374f8c36a43faed929c2dc7ea60e286bd9bd983bea7c5b74ca492"
+    },
+    "reproduction/studies/loopback-framing-comparison/run-002/result.json": {
+      "original_sha256": "03982ecf2399236073828f84ef1d84bb085a463732153029cb7ea6d0f80550ab",
+      "public_sha256": "03982ecf2399236073828f84ef1d84bb085a463732153029cb7ea6d0f80550ab"
+    },
+    "reproduction/studies/loopback-framing-comparison/test_adapter.py": {
+      "original_sha256": "f63723e281b29f27d4b22b0c4805617f7ac329c917b0aff9f9e49728195e6b65",
+      "public_sha256": "f63723e281b29f27d4b22b0c4805617f7ac329c917b0aff9f9e49728195e6b65"
+    },
+    "reproduction/studies/loopback-framing-comparison/test_benchmark.py": {
+      "original_sha256": "53387f1b75eae7768558d68282d1da352a9566b12e6ceb8ebd5ac628e52a57cb",
+      "public_sha256": "53387f1b75eae7768558d68282d1da352a9566b12e6ceb8ebd5ac628e52a57cb"
+    },
+    "reproduction/studies/loopback-framing-comparison/test_verify_results.py": {
+      "original_sha256": "a239602c107dfa9cc13e93b5c1f1c463d22306ac3473c35ad4f459ea39e6037d",
+      "public_sha256": "a239602c107dfa9cc13e93b5c1f1c463d22306ac3473c35ad4f459ea39e6037d"
+    },
+    "reproduction/studies/loopback-framing-comparison/verify_results.py": {
+      "original_sha256": "d34ab17b9299cdc26c89d7397d009098caa114b97d2c91b5d4dd41a4ec953136",
+      "public_sha256": "d34ab17b9299cdc26c89d7397d009098caa114b97d2c91b5d4dd41a4ec953136"
+    },
+    "reproduction/studies/serialization-overhead/ARTIFACTS_SHA256.json": {
+      "original_sha256": "494ba48f41078a3c82819ac120880efc79419528bd77f53abd73ddc0bf1516a3",
+      "public_sha256": "494ba48f41078a3c82819ac120880efc79419528bd77f53abd73ddc0bf1516a3"
+    },
+    "reproduction/studies/serialization-overhead/BASELINE_POST_DATA.json": {
+      "original_sha256": "310f00bbe50604537f7283e608995f53da7ab3e8976aed2d732b139a068bafbc",
+      "public_sha256": "310f00bbe50604537f7283e608995f53da7ab3e8976aed2d732b139a068bafbc"
+    },
+    "reproduction/studies/serialization-overhead/BASELINE_PRE_DATA.json": {
+      "original_sha256": "3ff03193a1545bc5f54b7f8adfb99add5447f7a1c2aa99625e64823863aeede8",
+      "public_sha256": "3ff03193a1545bc5f54b7f8adfb99add5447f7a1c2aa99625e64823863aeede8"
+    },
+    "reproduction/studies/serialization-overhead/BASELINE_UPSTREAM.json": {
+      "original_sha256": "b5020e976850e1e33e41dda0ee488fa4b7e6dda9f8d71225f61c8732c6adb4b0",
+      "public_sha256": "b5020e976850e1e33e41dda0ee488fa4b7e6dda9f8d71225f61c8732c6adb4b0"
+    },
+    "reproduction/studies/serialization-overhead/PRE_DATA_SHA256.json": {
+      "original_sha256": "f008a2a321c6729468280baa6515a04148d8786f67a55e37a3e51ba893f6cae2",
+      "public_sha256": "f008a2a321c6729468280baa6515a04148d8786f67a55e37a3e51ba893f6cae2"
+    },
+    "reproduction/studies/serialization-overhead/PROTOCOL.md": {
+      "original_sha256": "f95da1c80aa0575e320c70cb91266e810f72d21791a488bbdee4978e4c5e17c4",
+      "public_sha256": "f95da1c80aa0575e320c70cb91266e810f72d21791a488bbdee4978e4c5e17c4"
+    },
+    "reproduction/studies/serialization-overhead/README.md": {
+      "original_sha256": "19cae0041fc89ffb65cc5b26219a07e0f21a6fd8fd339bae163b0e2a3afda72e",
+      "public_sha256": "19cae0041fc89ffb65cc5b26219a07e0f21a6fd8fd339bae163b0e2a3afda72e"
+    },
+    "reproduction/studies/serialization-overhead/RESULTS.md": {
+      "original_sha256": "ededa914256b99b33aa10f2cb8fa856797f62b8263bd06f323dd06bc712ec23d",
+      "public_sha256": "ededa914256b99b33aa10f2cb8fa856797f62b8263bd06f323dd06bc712ec23d"
+    },
+    "reproduction/studies/serialization-overhead/REVIEW.md": {
+      "original_sha256": "746774425666757264c0768148316b605da0b8cdd2e99c9e98e86642de87f56a",
+      "public_sha256": "746774425666757264c0768148316b605da0b8cdd2e99c9e98e86642de87f56a"
+    },
+    "reproduction/studies/serialization-overhead/TEST_RESULTS_CODEC.txt": {
+      "original_sha256": "02f39cd7aba27073d81fcad63ecdc6b483b83b08fd43cd30a72763243484a6e0",
+      "public_sha256": "02f39cd7aba27073d81fcad63ecdc6b483b83b08fd43cd30a72763243484a6e0"
+    },
+    "reproduction/studies/serialization-overhead/TEST_RESULTS_OPTIMIZED.txt": {
+      "original_sha256": "80925c5bdc1cd25c548063b35fa35ed1d7cec754f018abb78c11113ad31fca4e",
+      "public_sha256": "80925c5bdc1cd25c548063b35fa35ed1d7cec754f018abb78c11113ad31fca4e"
+    },
+    "reproduction/studies/serialization-overhead/TEST_RESULTS_POST_DATA.txt": {
+      "original_sha256": "b6751d7e19ed61ad794c7077bd36d248b6ae19e0681320a408bd0c0dc81e186c",
+      "public_sha256": "b6751d7e19ed61ad794c7077bd36d248b6ae19e0681320a408bd0c0dc81e186c"
+    },
+    "reproduction/studies/serialization-overhead/TEST_RESULTS_PRE_DATA.txt": {
+      "original_sha256": "cf21e1ba99cf159ae29545ee3dcd47037aca707966a9b76eef7f5c999a456f10",
+      "public_sha256": "cf21e1ba99cf159ae29545ee3dcd47037aca707966a9b76eef7f5c999a456f10"
+    },
+    "reproduction/studies/serialization-overhead/TEST_RESULTS_ROOT.txt": {
+      "original_sha256": "5cd9c3f35ac4349f9284e3fb40620a1a3333a0a1de8a3b2d0e01006f26a7c601",
+      "public_sha256": "5cd9c3f35ac4349f9284e3fb40620a1a3333a0a1de8a3b2d0e01006f26a7c601"
+    },
+    "reproduction/studies/serialization-overhead/VERIFICATION_RESULTS.json": {
+      "original_sha256": "efb1434520ab738a7d718f3c06528c4c2e4f6fd665512d71dbd35fb4c9c8cb87",
+      "public_sha256": "efb1434520ab738a7d718f3c06528c4c2e4f6fd665512d71dbd35fb4c9c8cb87"
+    },
+    "reproduction/studies/serialization-overhead/benchmark.py": {
+      "original_sha256": "9cbebec770994186c8ccc98cfe376d54000af5780f213d7cfc7755419ce4a12b",
+      "public_sha256": "9cbebec770994186c8ccc98cfe376d54000af5780f213d7cfc7755419ce4a12b"
+    },
+    "reproduction/studies/serialization-overhead/results/run-001/journal.jsonl": {
+      "original_sha256": "b30613d7d54d04083678306dfa410da7e9a3f0740a8bcb47a123d75bfcccc21f",
+      "public_sha256": "b30613d7d54d04083678306dfa410da7e9a3f0740a8bcb47a123d75bfcccc21f"
+    },
+    "reproduction/studies/serialization-overhead/results/run-001/result.json": {
+      "original_sha256": "8b8a7261220139a4c1536e735251c4bc88534f0d92964f729070f1f0da6f9554",
+      "public_sha256": "8b8a7261220139a4c1536e735251c4bc88534f0d92964f729070f1f0da6f9554"
+    },
+    "reproduction/studies/serialization-overhead/results/run-002/journal.jsonl": {
+      "original_sha256": "173ba22aec25de2a4659ded7a5860851a1cca26fcfc53b507a88e6c777de79ac",
+      "public_sha256": "173ba22aec25de2a4659ded7a5860851a1cca26fcfc53b507a88e6c777de79ac"
+    },
+    "reproduction/studies/serialization-overhead/results/run-002/result.json": {
+      "original_sha256": "7b4154c6e2405cd0cc160da8269963a884eaeb5ac4f59932221002eb30ac15f5",
+      "public_sha256": "7b4154c6e2405cd0cc160da8269963a884eaeb5ac4f59932221002eb30ac15f5"
+    },
+    "reproduction/studies/serialization-overhead/test_benchmark.py": {
+      "original_sha256": "0dc7ad08f77dc645c3a70eb3f6a791cee8228250fbbc2c7d54581e2b99158afa",
+      "public_sha256": "0dc7ad08f77dc645c3a70eb3f6a791cee8228250fbbc2c7d54581e2b99158afa"
+    },
+    "reproduction/studies/serialization-overhead/test_verify_results.py": {
+      "original_sha256": "7fd75919cdea0beca28cb0f109cb45ac542c048fa62a9f3a23a5907244842460",
+      "public_sha256": "7fd75919cdea0beca28cb0f109cb45ac542c048fa62a9f3a23a5907244842460"
+    },
+    "reproduction/studies/serialization-overhead/verify_results.py": {
+      "original_sha256": "d368a59467506b89d9dec2314a350d4d9a28ba1108a518d287052f3c88e107c6",
+      "public_sha256": "d368a59467506b89d9dec2314a350d4d9a28ba1108a518d287052f3c88e107c6"
+    },
+    "reproduction/studies/tcp-framing-codec/README.md": {
+      "original_sha256": "a3b1c2435e61faaf1f69b7e7e7f6bcf4c85e5e850fbfe562789611ebffe20a7e",
+      "public_sha256": "a3b1c2435e61faaf1f69b7e7e7f6bcf4c85e5e850fbfe562789611ebffe20a7e"
+    },
+    "reproduction/studies/tcp-framing-codec/SOURCE_SHA256.txt": {
+      "original_sha256": "e7245bcee6b656702e5b4dff8db97814d29cd330a6f3e78f5e7e6529e1c2ab42",
+      "public_sha256": "e7245bcee6b656702e5b4dff8db97814d29cd330a6f3e78f5e7e6529e1c2ab42"
+    },
+    "reproduction/studies/tcp-framing-codec/SUPERVISION_DESIGN.md": {
+      "original_sha256": "7939dd61dc845cbd167fc648c52bff634b4c1beae40446eba85ee869f8ba5f10",
+      "public_sha256": "7939dd61dc845cbd167fc648c52bff634b4c1beae40446eba85ee869f8ba5f10"
+    },
+    "reproduction/studies/tcp-framing-codec/TEST_RESULTS.txt": {
+      "original_sha256": "795c9f8875d32c5fcf62b222fe1c97f505761d28e501045e71ee5576dbf11201",
+      "public_sha256": "795c9f8875d32c5fcf62b222fe1c97f505761d28e501045e71ee5576dbf11201"
+    },
+    "reproduction/studies/tcp-framing-codec/mesh_codec.py": {
+      "original_sha256": "3fcb2b2dffd7d95e56d4887ce02a63482ff612b4a7c0313e9fbcb715a419b5aa",
+      "public_sha256": "3fcb2b2dffd7d95e56d4887ce02a63482ff612b4a7c0313e9fbcb715a419b5aa"
+    },
+    "reproduction/studies/tcp-framing-codec/test_mesh_codec.py": {
+      "original_sha256": "799b6e048fdc9ffb31a754d48ef2623914003785e456f9ff0eb91e224139dc6f",
+      "public_sha256": "799b6e048fdc9ffb31a754d48ef2623914003785e456f9ff0eb91e224139dc6f"
+    },
+    "reproduction/tests/test_feasibility.py": {
+      "original_sha256": "89884664f0bdc2ac61b0393b56ee1aedf314c9a37e878c7cbc272e94c0350efc",
+      "public_sha256": "89884664f0bdc2ac61b0393b56ee1aedf314c9a37e878c7cbc272e94c0350efc"
+    },
+    "reproduction/tests/test_household.py": {
+      "original_sha256": "64c63eea9fae186cd3810f39fea28ef73653d6a9d749cd14ff3d68b1ccc44ea2",
+      "public_sha256": "64c63eea9fae186cd3810f39fea28ef73653d6a9d749cd14ff3d68b1ccc44ea2"
+    },
+    "reproduction/tests/test_mesh.py": {
+      "original_sha256": "badd2f895a0928d6301d37dd2effdd3dba241bf911f1b5c29e4d6b645d372345",
+      "public_sha256": "badd2f895a0928d6301d37dd2effdd3dba241bf911f1b5c29e4d6b645d372345"
+    },
+    "reproduction/tests/test_pretrained_optional.py": {
+      "original_sha256": "9bab33efe205b72e7149c9c6eb02a84621cbeda65b30c5e66b673a2e19d4cae1",
+      "public_sha256": "9bab33efe205b72e7149c9c6eb02a84621cbeda65b30c5e66b673a2e19d4cae1"
+    },
+    "reproduction/tests/test_pretrained_protocol.py": {
+      "original_sha256": "f8740d96bf37cd46a0733ad59bfaa7b32568fce3e79169c796a7fb7be3012c8c",
+      "public_sha256": "f8740d96bf37cd46a0733ad59bfaa7b32568fce3e79169c796a7fb7be3012c8c"
+    },
+    "reproduction/tests/test_pretrained_session_protocol.py": {
+      "original_sha256": "4bef6ce8f90c2f9f53cb24e01f4623508e9f11e48643e9581d18a1bde164e6f5",
+      "public_sha256": "4bef6ce8f90c2f9f53cb24e01f4623508e9f11e48643e9581d18a1bde164e6f5"
+    },
+    "reproduction/tests/test_process_mesh.py": {
+      "original_sha256": "2fe8afc61b70eeb9168703260d630102faad6912fa242cbd4bd3c80b14e2e204",
+      "public_sha256": "2fe8afc61b70eeb9168703260d630102faad6912fa242cbd4bd3c80b14e2e204"
+    },
+    "reproduction/tests/test_repeated.py": {
+      "original_sha256": "73cb621ce26bf5702cbd9fd8bc9ff38c50f3ce96a74a234cd871cdcb55e5ad34",
+      "public_sha256": "73cb621ce26bf5702cbd9fd8bc9ff38c50f3ce96a74a234cd871cdcb55e5ad34"
+    },
+    "reviews/POSTRUN_REVIEW.json": {
+      "original_sha256": "07f8fc77ba8ae72dc9306e1f2bf3097c083f8a6452836406200cb1be2f5138a6",
+      "public_sha256": "7b253dfd31c770227a56d68a49fd7692c477daf719e0f2f91092d7b20c353ac7"
+    },
+    "reviews/REVIEW.json": {
+      "original_sha256": "83e4a60bf860bc5bedc9d706cb6d22f0b2b2702bcf1bf5584f9321d4cc6e6d1e",
+      "public_sha256": "bc3c3ece5e288bbc2e772071db1b9b9b16bb7e6708aca403fb61ae3d65b84da2"
+    },
+    "reviews/REVIEW.md": {
+      "original_sha256": "3553edc6d166cd87d9f27b7677da5306058095ee9a0e4a9a2dac642cc8095285",
+      "public_sha256": "2053aec989d1621822ed8ff39588b6ffc620a61f39959f1f4639156d062d7be5"
+    }
+  },
+  "schema": 1
+}

@@ -1,0 +1,21 @@
+test_adapter (unittest.loader._FailedTest.test_adapter) ... ERROR
+
+======================================================================
+ERROR: test_adapter (unittest.loader._FailedTest.test_adapter)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_adapter
+Traceback (most recent call last):
+  File "<python-standard-library>/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-standard-library>/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "reproduction/studies/loopback-framing-comparison/test_adapter.py", line 6, in <module>
+    import deadline_adapter as a
+ModuleNotFoundError: No module named 'deadline_adapter'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

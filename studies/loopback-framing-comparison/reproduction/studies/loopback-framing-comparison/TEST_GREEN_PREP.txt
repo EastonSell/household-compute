@@ -1,0 +1,35 @@
+test_accept_rejects_nonloopback_peer (test_adapter.AdapterTests.test_accept_rejects_nonloopback_peer) ... ok
+test_already_reaped_child_not_signaled (test_adapter.AdapterTests.test_already_reaped_child_not_signaled) ... ok
+test_backward_and_nonfinite_clocks_rejected (test_adapter.AdapterTests.test_backward_and_nonfinite_clocks_rejected) ... ok
+test_clean_child_is_reaped_without_signals (test_adapter.AdapterTests.test_clean_child_is_reaped_without_signals) ... ok
+test_connect_in_progress_and_refused (test_adapter.AdapterTests.test_connect_in_progress_and_refused) ... ok
+test_eof_and_zero_write_are_terminal (test_adapter.AdapterTests.test_eof_and_zero_write_are_terminal) ... ok
+test_escalation_only_targets_same_owned_child (test_adapter.AdapterTests.test_escalation_only_targets_same_owned_child) ... ok
+test_expired_cleanup_never_claims_reaped (test_adapter.AdapterTests.test_expired_cleanup_never_claims_reaped) ... ok
+test_forbids_nonloopback_and_bad_ports_before_connect (test_adapter.AdapterTests.test_forbids_nonloopback_and_bad_ports_before_connect) ... ok
+test_partial_send_and_recv_account_actual_bytes (test_adapter.AdapterTests.test_partial_send_and_recv_account_actual_bytes) ... ok
+test_readiness_does_not_extend_expired_deadline (test_adapter.AdapterTests.test_readiness_does_not_extend_expired_deadline) ... ok
+test_would_block_and_interrupt_keep_deadline (test_adapter.AdapterTests.test_would_block_and_interrupt_keep_deadline) ... ok
+test_admission_bound_to_exact_stage_and_freeze (test_benchmark.BenchmarkTests.test_admission_bound_to_exact_stage_and_freeze) ... ok
+test_canary_has_no_measured_rows (test_benchmark.BenchmarkTests.test_canary_has_no_measured_rows) ... ok
+test_exclusive_output_never_overwrites (test_benchmark.BenchmarkTests.test_exclusive_output_never_overwrites) ... ok
+test_fixtures_retain_prior_exact_sizes_and_bytes (test_benchmark.BenchmarkTests.test_fixtures_retain_prior_exact_sizes_and_bytes) ... ok
+test_full_fixed_denominator_and_balanced_pairing (test_benchmark.BenchmarkTests.test_full_fixed_denominator_and_balanced_pairing) ... ok
+test_journal_reserves_terminal_and_refuses_overwrite (test_benchmark.BenchmarkTests.test_journal_reserves_terminal_and_refuses_overwrite) ... ok
+test_missing_admission_fails_before_sockets (test_benchmark.BenchmarkTests.test_missing_admission_fails_before_sockets) ... ok
+test_output_size_rejected_without_creating_file (test_benchmark.BenchmarkTests.test_output_size_rejected_without_creating_file) ... ok
+test_strict_json_rejects_duplicates_and_nonfinite (test_benchmark.BenchmarkTests.test_strict_json_rejects_duplicates_and_nonfinite) ... ok
+test_timer_rejects_nonpositive_and_boolean_intervals (test_benchmark.BenchmarkTests.test_timer_rejects_nonpositive_and_boolean_intervals) ... ok
+test_timer_wraps_all_operations_and_not_checks (test_benchmark.BenchmarkTests.test_timer_wraps_all_operations_and_not_checks) ... ok
+test_wrong_ack_rejected (test_benchmark.BenchmarkTests.test_wrong_ack_rejected) ... ok
+test_accepts_complete_invented_run_and_canary (test_verify_results.VerifierTests.test_accepts_complete_invented_run_and_canary) ... ok
+test_rejects_changed_fixture_freeze_journal_and_extra_fields (test_verify_results.VerifierTests.test_rejects_changed_fixture_freeze_journal_and_extra_fields) ... ok
+test_rejects_edited_pair_accounting_and_summary (test_verify_results.VerifierTests.test_rejects_edited_pair_accounting_and_summary) ... ok
+test_rejects_missing_duplicate_and_reordered_rows (test_verify_results.VerifierTests.test_rejects_missing_duplicate_and_reordered_rows) ... ok
+test_rejects_missing_reap_escalation_and_receiver_failure (test_verify_results.VerifierTests.test_rejects_missing_reap_escalation_and_receiver_failure) ... ok
+test_rejects_nonpositive_inconsistent_intervals_and_canary_timings (test_verify_results.VerifierTests.test_rejects_nonpositive_inconsistent_intervals_and_canary_timings) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.537s
+
+OK

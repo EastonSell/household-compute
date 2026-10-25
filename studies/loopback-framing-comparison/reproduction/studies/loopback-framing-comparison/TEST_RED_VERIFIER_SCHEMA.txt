@@ -1,0 +1,28 @@
+test_accepts_complete_invented_run_and_canary (test_verify_results.VerifierTests.test_accepts_complete_invented_run_and_canary) ... ERROR
+test_rejects_boolean_integer_aliases_and_inflight_completion (test_verify_results.VerifierTests.test_rejects_boolean_integer_aliases_and_inflight_completion) ... ok
+test_rejects_changed_fixture_freeze_journal_and_extra_fields (test_verify_results.VerifierTests.test_rejects_changed_fixture_freeze_journal_and_extra_fields) ... ok
+test_rejects_edited_pair_accounting_and_summary (test_verify_results.VerifierTests.test_rejects_edited_pair_accounting_and_summary) ... ok
+test_rejects_missing_duplicate_and_reordered_rows (test_verify_results.VerifierTests.test_rejects_missing_duplicate_and_reordered_rows) ... ok
+test_rejects_missing_reap_escalation_and_receiver_failure (test_verify_results.VerifierTests.test_rejects_missing_reap_escalation_and_receiver_failure) ... ok
+test_rejects_nonpositive_inconsistent_intervals_and_canary_timings (test_verify_results.VerifierTests.test_rejects_nonpositive_inconsistent_intervals_and_canary_timings) ... ok
+
+======================================================================
+ERROR: test_accepts_complete_invented_run_and_canary (test_verify_results.VerifierTests.test_accepts_complete_invented_run_and_canary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "reproduction/studies/loopback-framing-comparison/test_verify_results.py", line 45, in test_accepts_complete_invented_run_and_canary
+    self.assertEqual(v.verify_data(result,receiver,journal,'a'*64),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reproduction/studies/loopback-framing-comparison/verify_results.py", line 141, in verify_data
+    keys(r,('schema','status','mode','freeze_sha256','admission','instance_id','started_at_utc',
+  File "reproduction/studies/loopback-framing-comparison/verify_results.py", line 47, in keys
+    need(type(value) is dict and set(value)==set(expected),'schema keys')
+  File "reproduction/studies/loopback-framing-comparison/verify_results.py", line 23, in need
+    if not value: raise ValueError(message)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: schema keys
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.201s
+
+FAILED (errors=1)

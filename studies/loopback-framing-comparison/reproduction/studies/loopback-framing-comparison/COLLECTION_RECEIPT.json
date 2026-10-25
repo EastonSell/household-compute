@@ -1,0 +1,64 @@
+{
+  "canary_admission_sha256": "33025388d52d2d5c612e642bde14859570b11d843a247c7d42a0cc4ae0690155",
+  "canary_result_sha256": "a696ec447b357b0eeeddda4be925562f079d6af4d989e588471f4ebe08daf97f",
+  "collection_admission_sha256": "a1765fc890c84e3de8641fe1cd00f8da2fe709944dc8c10fa97bfaa9f907303c",
+  "collection_scope": "two fixed single-host loopback delivery-and-ACK latency runs; no mesh or throughput claim",
+  "freeze_sha256": "c8367af12ccb2434ea5a15d6f3fe162e521994768c74e75c98eb40b4b4c68f65",
+  "frozen_sources_changed": false,
+  "independent_predata_review_sha256": "83e4a60bf860bc5bedc9d706cb6d22f0b2b2702bcf1bf5584f9321d4cc6e6d1e",
+  "no_retries_or_replacements": true,
+  "preserved_historical_files": 92,
+  "run_001_verified_before_run_002": true,
+  "run_order": [
+    "run-001",
+    "run-002"
+  ],
+  "run_set_verification": [
+    {
+      "commands": 88,
+      "mode": "run-001",
+      "rows": 80
+    },
+    {
+      "commands": 88,
+      "mode": "run-002",
+      "rows": 80
+    }
+  ],
+  "runs": [
+    {
+      "cleanup": {
+        "killed": false,
+        "pid": 7,
+        "reaped": true,
+        "returncode": 0,
+        "terminated": false
+      },
+      "journal_sha256": "55b5c5edf896156c003ce7f7ecf13e29557221e5dfc028509120caf89ebf0661",
+      "receiver_sha256": "91209c2992e941ed5023de9c1b12722ae239279155001bf029095de9176919d5",
+      "result_sha256": "30409f4fd8133c0fd9afa82ddc6f60ec8856bb445452dc629d485758189c171a",
+      "returncode": 0,
+      "run_id": "run-001",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "cleanup": {
+        "killed": false,
+        "pid": 6,
+        "reaped": true,
+        "returncode": 0,
+        "terminated": false
+      },
+      "journal_sha256": "85e8136194ac343d93dc976a345f5749039074c015c801339d65432a5318b5a2",
+      "receiver_sha256": "19e94afe7cb374f8c36a43faed929c2dc7ea60e286bd9bd983bea7c5b74ca492",
+      "result_sha256": "03982ecf2399236073828f84ef1d84bb085a463732153029cb7ea6d0f80550ab",
+      "returncode": 0,
+      "run_id": "run-002",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "schema": 1,
+  "status": "collected_pending_independent_postrun_audit"
+}
