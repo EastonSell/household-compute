@@ -1,0 +1,63 @@
+{
+  "status": "collected_pending_postrun_review",
+  "freeze_sha256": "5053f3212d4469f69b3d59110153646d2eada24d4153f2b312f6ab9d8c595e89",
+  "predata_review_sha256": "c16eafe41062b8f1df161190950c49b37bce5529d13c5bec23fbf82b6f855d32",
+  "external_supervisor_seconds": 190,
+  "supervisor_action": "GNU timeout sends SIGKILL at 190 seconds to each invocation; no retries",
+  "internal_budget_limit": "180-second cooperative accounting excludes terminal journal and result-file writes",
+  "started_at_utc": "2026-10-25T07:55:41.943348+00:00",
+  "runs": [
+    {
+      "run_id": "run-001",
+      "command": [
+        "timeout",
+        "--signal=KILL",
+        "190s",
+        "python",
+        "studies/finite-validation-optimization/benchmark.py",
+        "--run-id",
+        "run-001",
+        "--output",
+        "studies/finite-validation-optimization/runs/run-001"
+      ],
+      "started_at_utc": "2026-10-25T07:55:41.950305+00:00",
+      "returncode": 0,
+      "finished_at_utc": "2026-10-25T07:55:54.029497+00:00",
+      "stdout": "{\"status\": \"complete\", \"run_id\": \"run-001\", \"rows\": 240, \"allocation_rows\": 96}\n",
+      "stderr": "",
+      "independent_verifier": {
+        "run_id": "run-001",
+        "rows": 240,
+        "allocation_rows": 96,
+        "paired_cells": 12
+      }
+    },
+    {
+      "run_id": "run-002",
+      "command": [
+        "timeout",
+        "--signal=KILL",
+        "190s",
+        "python",
+        "studies/finite-validation-optimization/benchmark.py",
+        "--run-id",
+        "run-002",
+        "--output",
+        "studies/finite-validation-optimization/runs/run-002"
+      ],
+      "started_at_utc": "2026-10-25T07:55:54.061290+00:00",
+      "returncode": 0,
+      "finished_at_utc": "2026-10-25T07:56:06.042551+00:00",
+      "stdout": "{\"status\": \"complete\", \"run_id\": \"run-002\", \"rows\": 240, \"allocation_rows\": 96}\n",
+      "stderr": "",
+      "independent_verifier": {
+        "run_id": "run-002",
+        "rows": 240,
+        "allocation_rows": 96,
+        "paired_cells": 12
+      }
+    }
+  ],
+  "run_set_verified": true,
+  "finished_at_utc": "2026-10-25T07:56:06.070989+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "verified_unchanged",
+  "checked_at_utc": "2026-10-25T08:01:54.690979+00:00",
+  "freeze_sha256": "5053f3212d4469f69b3d59110153646d2eada24d4153f2b312f6ab9d8c595e89",
+  "predata_artifact_manifest_sha256": "f02e0daa87fcaf0058c30413501673c1cadea5d3b82f5db31225c444480a6899",
+  "unchanged_frozen_sources": 10,
+  "unchanged_predata_artifacts_including_manifest": 20,
+  "unchanged_prior_baseline_files": 62,
+  "observations": {
+    "latency_rows": 480,
+    "allocation_rows": 192,
+    "runs": 2,
+    "failures": 0,
+    "retries": 0
+  },
+  "postdata_tests": {
+    "new_study_normal": 49,
+    "new_study_optimized": 49,
+    "root_passed": 62,
+    "root_skipped": 3,
+    "original_codec": 34,
+    "prior_serialization": 23
+  }
+}

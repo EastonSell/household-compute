@@ -1,0 +1,27 @@
+--- studies/tcp-framing-codec/mesh_codec.py	2026-10-24 23:31:53.083203693 -0700
++++ studies/finite-validation-optimization/candidate_codec.py	2026-10-25 00:34:37.971325173 -0700
+@@ -5,0 +6,21 @@
++import sys
++
++# This study changes only the finite FP32 predicate; all codec work stays intact.
++# A native cast is correct only when C float is IEEE binary32, little-endian.
++# Unknown / big-endian hosts keep the original explicitly little-endian scan.
++_NATIVE_FP32_LE = (sys.byteorder == 'little' and
++                   getattr(float, '__getformat__', lambda _: 'unknown')('float')
++                   == 'IEEE, little-endian')
++
++
++def finite_scan(tensor):
++    """Private study predicate for contiguous, whole-number-of-FP32 byte buffers.
++
++    A memoryview avoids per-element singleton tuples. map avoids the Python
++    generator frame; Python float objects and isfinite calls remain. This is a
++    mechanism hypothesis, not evidence of speed or total allocation savings.
++    """
++    if _NATIVE_FP32_LE:
++        return all(map(math.isfinite, memoryview(tensor).cast('f')))
++    return all(math.isfinite(x[0]) for x in struct.iter_unpack('<f', tensor))
++
+@@ -139 +160 @@
+-            require(all(math.isfinite(x[0]) for x in struct.iter_unpack('<f', tensor)), 'nonfinite tensor')
++            require(finite_scan(tensor), 'nonfinite tensor')
