@@ -69,6 +69,8 @@ All participating devices are assumed to have informed consent. The baseline req
 - [Read the household feasibility paper](docs/HOUSEHOLD_INFERENCE_FEASIBILITY.md) for resource bounds and scaling assumptions.
 - [Follow the study guide](studies/README.md) to inspect retained evidence before running an optional model experiment.
 
+For newly edited scenarios, use the [validated offline comparison tool](docs/SCENARIO_COMPARISON.md): it rejects malformed inputs before comparison and records the exact input SHA-256.
+
 For optional exploration, these standard-library commands print JSON:
 
 ```sh
